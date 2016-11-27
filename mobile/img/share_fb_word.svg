@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="45px" viewBox="0 0 96 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>share_fb_word</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="18" font-family="DFNMing-W9-WIN-BF, DFNMingXBold-B5" letter-spacing="1.79999995" font-weight="bold">
+        <g id="Artboard" transform="translate(-59.000000, -1543.000000)">
+            <g id="bottom" transform="translate(52.000000, 1436.000000)">
+                <g id="btn_fbshare" transform="translate(2.000000, 107.000000)">
+                    <text id="share_fb_word">
+                        <tspan x="3.50000012" y="28" fill="#000000">分享</tspan>
+                        <tspan x="43.1" y="28" fill="#BA0017">抽機票</tspan>
+                        <tspan x="102.5" y="28" letter-spacing="1.62" fill="#000000"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

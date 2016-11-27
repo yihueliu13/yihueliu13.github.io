@@ -1,0 +1,123 @@
+/* 超小螢幕設備（手機，小於 768px） */
+.container-result{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row-result{
+  width: 100%;
+  max-width: 414px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.row-result .result-top{
+  margin-top: 60px;
+  padding: 35px 0;
+}
+
+.result-top img{
+  float: left;
+  width: 284px;
+}
+
+.replay-game{
+  float: right;
+  display: block;
+  width: 46px;
+  height: 46px;
+}
+
+.btn-replay{
+  background-image: url("../img/btn_replay_normal.svg");
+}
+
+.btn-replay:hover{
+  background-image: url("../img/btn_replay_active.svg");
+}
+
+.result-middle{
+  width: 100%;
+  text-align: center;
+  /*margin: 0 auto;*/
+}
+
+.result-middle img:nth-child(1){
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.result-middle img:nth-child(2){
+  margin-bottom: 15px;
+}
+
+.result-middle .result-btn{
+  display: block;
+  width:343px;
+  max-width: 343px;
+  height: 53px;
+}
+
+.result-middle > .btn-download{
+  margin: 0 auto;
+  background-image: url("../img/download_sticker_normal.svg");
+}
+
+.result-middle > .btn-download:hover{
+  background-image: url("../img/download_sticker_actine.svg");
+}
+
+.result-bottom{
+  width: 355px;
+  max-width: 355px;
+  margin-bottom: 15px;
+  padding: 12px 0;
+  /*text-align: center;*/
+  display: block;
+  margin: 0 auto;
+}
+.result-bottom img{
+  float: left;
+  margin-left:15px;
+}
+
+.result-bottom .share-line{
+  float: right;
+  width:220px;
+  max-width: 220px;
+  height: 49px;
+  margin-right: 5px;
+}
+
+.result-bottom .btn-line{
+  background-image: url("../img/share_line_normal.svg");
+}
+
+.result-bottom .btn-line:hover{
+  background-image: url("../img/share_line_active.svg");
+}
+
+.fix-clear{
+  clear: both;
+}
+
+.result-bottom .share-fb{
+  float: right;
+  width:220px;
+  height: 49px;
+  margin-right: 5px;
+}
+
+.result-bottom .btn-fb{
+  background-image: url("../img/share_fb_normal.svg");
+}
+
+.result-bottom .btn-fb:hover{
+  background-image: url("../img/share_fb_active.svg");
+}
+
+
+
+
+/* 小螢幕設備（平板，768px（含）以上） */
+@media (min-width: @screen-sm-min) { ... }
