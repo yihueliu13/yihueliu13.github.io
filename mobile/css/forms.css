@@ -50,7 +50,7 @@ form.forms-con{
   padding-top: 10px;
 }
 
-.f-sub .f-sub-type, .form-control{
+.f-sub .f-sub-type{
   width: 70%;
   float: right;
   padding: 12px 12px;
@@ -59,6 +59,10 @@ form.forms-con{
   font-size: 14px;
   letter-spacing: .2;
   border: 1px solid rgba(0,0,0,.15);
+
+}
+
+.form-control{
   -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
           box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0);
 }
