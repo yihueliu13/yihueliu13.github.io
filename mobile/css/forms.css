@@ -1,0 +1,133 @@
+/* 超小螢幕設備（手機，小於 768px） */
+/* 活動辦法footer nav-tab */
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body.no-bg{
+  background-image: none;
+}
+
+.content-mid{
+  width: 100%;
+  /*padding-left: 10%;
+  padding-right: 10%;*/
+  margin-top: 70px;
+  text-align: center;
+  overflow:auto;
+  margin-bottom: 100px;
+}
+
+.con-form{
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.content-mid .row-forms{
+  width: 325px;
+  text-align: center;
+  margin: auto;
+}
+
+form.forms-con{
+  width: 100%;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.forms-con .form-group {
+  width: 100%;
+}
+
+.forms-con .f-sub label.l-sub{
+  float: left;
+  font-size: 17px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.f-sub .f-sub-type{
+  width: 70%;
+  float: right;
+  padding: 12px 12px;
+  height: 44px;
+  color:#9B9B9B;
+  font-size: 14px;
+  letter-spacing: .2;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+}
+
+.opt-list{
+  width: 34.5%;
+  float: right;
+  margin-left: 0.5%;
+  margin-bottom: 15px;
+  float: left;
+  padding: 12px 12px;
+  height: 44px;
+  color:#9B9B9B;
+  font-size: 14px;
+  letter-spacing: .2;
+  border: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.33);
+}
+
+.l-sub-add{
+  width: 30%;
+}
+
+.form-group::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+legend.provision-tit{
+  margin-top: 20px;
+  font-size: 16px;
+  color: #D0011B;
+  font-weight: 700;
+  letter-spacing: 1.8;
+  border-bottom:0;
+}
+
+.provisio{m,
+  width: 320px;
+  outline: 1px solid #D7D7D7;
+}
+
+p.provision-inner{
+  padding: 10px;
+  font-size: 11px;
+  letter-spacing: .2;
+  line-height: 1.8;
+}
+
+.check-box{
+  padding: 10px 0;
+  text-align: left;
+}
+
+.btn-form{
+  width: 325px;
+  padding: .5em;
+  margin-top: 1.5em;
+  background-color: #84071C;
+  border-color: #84071C;
+  font-size: 20px;
+
+}
+
+
+
+
+
+/* 小螢幕設備（平板，768px（含）以上） */
+@media (min-width: @screen-sm-min) { ... }
