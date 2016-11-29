@@ -48,7 +48,7 @@ form.forms-con{
   padding-top: 10px;
 }
 
-.f-sub .f-sub-type{
+.f-sub .f-sub-type, .form-control{
   width: 70%;
   float: right;
   padding: 12px 12px;
