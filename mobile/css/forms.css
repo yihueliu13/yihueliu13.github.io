@@ -57,7 +57,10 @@ form.forms-con{
   font-size: 14px;
   letter-spacing: .2;
   border: 1px solid rgba(0,0,0,.15);
+  box-shadow: none;
 }
+
+
 
 .opt-list{
   width: 34.5%;
