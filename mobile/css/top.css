@@ -1,4 +1,10 @@
 /* 超小螢幕設備（手機，小於 768px） */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body{
   background-image: url("../img/bg_paper-min.png");
   background-repeat: repeat;
