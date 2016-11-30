@@ -52,6 +52,11 @@ form.forms-con{
   box-shadow: 0 0 0 !important;
 }
 
+.form-control:active{
+  border-color: #939393;
+
+}
+
 .form-control:focus {
   border-color: #939393;
 }
