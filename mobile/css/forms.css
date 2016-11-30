@@ -7,6 +7,8 @@
   margin: 0;
 }
 
+
+
 body.no-bg{
   background-image: none;
 }
@@ -48,6 +50,10 @@ form.forms-con{
   padding-top: 10px;
 }
 
+.form-control, .form-control:focus, .form-control:active, .custom-select{
+  box-shadow: 0 0 0;
+}
+
 .f-sub .f-sub-type{
   width: 70%;
   float: right;
@@ -56,7 +62,6 @@ form.forms-con{
   font-size: 14px;
   letter-spacing: .2;
   border: 1px solid rgba(0,0,0,.15);
-  box-shadow: none;
 }
 
 .opt-list{
