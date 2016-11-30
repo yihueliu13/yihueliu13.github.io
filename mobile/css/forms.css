@@ -49,7 +49,11 @@ form.forms-con{
 }
 
 .form-control, .form-control:focus, .form-control:active, .custom-select{
-  box-shadow: 0 0 0;
+  box-shadow: 0 0 0 !important;
+}
+
+.form-control:focus {
+  border-color: #939393;
 }
 
 .f-sub .f-sub-type{
