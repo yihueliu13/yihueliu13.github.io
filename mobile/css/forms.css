@@ -48,27 +48,27 @@ form.forms-con{
   padding-top: 10px;
 }
 
-.form-control, .form-control:focus, .form-control:active, .custom-select{
+.form-control{
   box-shadow: 0 0 0 !important;
-}
-
-.form-control:active{
-  border-color: #939393;
+  padding: 12px 12px;
 
 }
 
 .form-control:focus {
-  border-color: #939393;
+    border-color: #000;
+    outline: 0;
 }
+
 
 .f-sub .f-sub-type{
   width: 70%;
   float: right;
-  padding: 12px 12px;
   color:#4a4a4a;
   font-size: 14px;
   letter-spacing: .2;
-  border: 1px solid rgba(0,0,0,.15);
+
+
+  /*border: 1px solid rgba(0,0,0,.15);*/
 }
 
 .opt-list{
