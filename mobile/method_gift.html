@@ -9,10 +9,14 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- method.css -->
+    <link rel="stylesheet" href="css/method.css" media="screen" title="no title">
     <!-- top.css -->
     <link rel="stylesheet" href="css/top.css" media="screen" title="no title">
-    <!-- result.css -->
-    <link rel="stylesheet" href="css/method.css" media="screen" title="no title">
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,29 +27,28 @@
   </head>
   <body>
     <!-- 選單開始navigation start -->
-    <nav class="navbar navbar-inverse navbar-fixed-top nav-h" role="navigation">
-      <div class="container">
-        <div class="navbar-header ">
-          <button type="button" class="navbar-toggle collapsed nav-position" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+      <div class="container-fluid container-nav">
+        <div class="navbar-header">
           <a class="navbar-brand navbar-cht" href="#"></a>
           <a class="navbar-line" href="#"></a>
+          <a class="fa-stack fa-lg btn-R" onclick="openNav()">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-bars fa-stack-1x fa-inverse"></i>
+          </a>
         </div>
 
         <!-- 下拉選單 隱藏 -->
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="https://tw.yahoo.com/"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
         </div>
       </div>
-    </nav>
+
 
     <!-- middle-content 中間內容 2 -->
 
@@ -53,7 +56,9 @@
       <div class="row row-width">
         <img src="img/gametitle_result.svg" alt="" />
         <img src="img/big_tit_method.svg" alt="" />
-        <img src="img/method_kv.svg" alt="" />
+        <div class="git-kv">
+          <img src="img/method_kv.svg" alt="" />
+        </div>
         <div class="list-all">
           <p class="w-2">機票兌換注意事項：</p>
           <ol class="list-note">
@@ -84,18 +89,21 @@
 
     <!-- 活動辦法footer nav-tab -->
     <footer class="nav-bottom">
-      <ul class="foo-tab bottom-tab">
-        <!-- <li class="none no-link no1">活動辦法</li> -->
-        <li class="list no-link no1 "><a href="method.html" class="tab-all tab1">活動辦法</a></li>
-        <li class="none no-link no2">獎品介紹</li>
-        <!-- <li class="list no-link no2"><a href="method-gift.html" class="tab-all tab2">獎品介紹</a></li> -->
-        <li class="list no-link no3"><a href="method_rule.html" class="tab-all tab3">個資及相關規定</a></li>
-      </ul>
+      <div class="fo-nav-inner">
+        <ul class="foo-tab bottom-tab">
+          <!-- <li class="none no-link no1">活動辦法</li> -->
+          <li class="list no-link no1 "><a href="method.html" class="tab-all tab1">活動辦法</a></li>
+          <li class="none no-link no2">獎品介紹</li>
+          <!-- <li class="list no-link no2"><a href="method-gift.html" class="tab-all tab2">獎品介紹</a></li> -->
+          <li class="list no-link no3"><a href="method_rule.html" class="tab-all tab3">個資及相關規定</a></li>
+        </ul>
+      </div>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdown.js"></script>
   </body>
 </html>
