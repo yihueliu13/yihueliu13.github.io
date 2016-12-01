@@ -1,4 +1,4 @@
-/* 超小螢幕設備（手機，小於 320px） */
+/* 超小螢幕設備（手機，小於 768px） */
   /* Custom, iPhone Retina */
   @media only screen and (min-width : 320px) {
 
@@ -28,6 +28,11 @@
       width: 100%;
       text-align: center;
       margin: auto;
+    }
+
+    .col-width{
+      width: 360px;
+      min-width: 320px;
     }
 
     form.forms-con{
@@ -95,11 +100,6 @@
       font-weight: 700;
       letter-spacing: 1.8;
       border-bottom:0;
-    }
-
-    p.explain{
-      width: 100%;
-      text-align: right;
     }
 
     .provisio{
@@ -171,6 +171,11 @@
       margin: auto;
     }
 
+    .col-width{
+      width: 360px;
+      min-width: 320px;
+    }
+
     form.forms-con{
       width: 100%;
       margin-top: 35px;
@@ -237,10 +242,6 @@
       font-weight: 700;
       letter-spacing: 1.8;
       border-bottom:0;
-    }
-
-    p.explain{
-      text-align: right;
     }
 
     .provisio{
@@ -312,6 +313,11 @@
       margin: auto;
     }
 
+    .col-width{
+      width: 360px;
+      min-width: 320px;
+    }
+
     form.forms-con{
       width: 100%;
       margin-top: 35px;
@@ -368,10 +374,6 @@
       content: "";
       display: block;
       clear: both;
-    }
-
-    p.explain{
-      text-align: right;
     }
 
     legend.provision-tit{

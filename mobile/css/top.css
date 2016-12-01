@@ -11,9 +11,18 @@ body{
   height: 100%;
   background-image: url("../img/bg_paper-min.png");
   background-repeat: repeat;
-  overflow: hidden;
-  background-attachment: fixed;
+  overflow-x:hidden;
 }
+
+.container-nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-nav > .navbar-header{
+  margin-left: 0;
+  margin-right: 0;
+} /*下拉選單的寬度修改成0，覆蓋原生屬性*/
 
   .nav-h{
     background-color: rgba(255, 255, 255, .8);
@@ -25,17 +34,14 @@ body{
             box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.18);
   }
 
+
   .navbar-cht{
     background-image: url("../img/btn_logo_cht.svg");
     background-repeat: no-repeat;
     width: 108px;
     height: 36px;
-    margin-top: 24px;
-    margin-left: 10px;
-  }
-
-  .nav-inline{
-    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
   }
 
   .navbar-line{
@@ -43,34 +49,82 @@ body{
     background-repeat: no-repeat;
     width: 97px;
     height: 35px;
-    margin-top: 24px;
-    margin-left: 21px;
+    margin-top: 20px;
+    margin-left: 20px;
     display: inline-block;
   }
 
- .navbar-toggle{
-    margin-top: 24px;
-    width: 35px;
-    height: 35px;
-    background-color: #333;
-    margin-top: 24px;
-    border-radius: 50%;
+  .navbar-header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .8);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    position: relative;
+    position: fixed;
   }
 
-  .navbar-toggle .icon-bar {
-    width: 12px;
-  }
+  .overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .95);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
 
-  .navbar-inverse .navbar-collapse{
-    border-color: transparent; /*把分隔線的顏色改成透明*/
-  }
-  .nav{
-    height: 100%;
-  }
+.overlay a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    right: 5%;
+    top:1.1%;
+    position: absolute;
+}
 
-  .navbar-nav{
-    margin: 0 -15px;
-  }
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
 
-/* 小螢幕設備（平板，768px（含）以上） */
-@media (min-width: @screen-sm-min) { ... }
+
+.overlay a:hover, .overlay a:focus {
+    color: #000000;
+}
+
+a.btn-R{
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  /*color: #000;*/
+  color: #000000;
+}
+
+a.btn-R:hover{
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  color: #BA0016;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
