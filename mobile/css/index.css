@@ -135,7 +135,7 @@
   }
 
   .bottom_bgimg {
-    background-image: url("../img/img_bottom_bg.svg");
+    background-image: url("../img/img_bottom_bg.png");
     background-repeat: repeat;
     height: 122px;
     position: absolute;
