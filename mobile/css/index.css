@@ -138,10 +138,11 @@
     background-image: url("../img/img_bottom_bg.png");
     background-repeat: repeat;
     background-position: bottom;
+    background-attachment: fixed;
     height: 122px;
-    
+
     z-index: -1;
-    position: fixed;
+    position: absolute;
   }
 
 
