@@ -121,8 +121,6 @@
   .cp{
     width: 250px;
     margin: auto;
-
-    height: 57px;
   }
 
   .male{
@@ -149,7 +147,7 @@
 
   .bottom_bgimg {
     background-image: url("../img/img_bottom_bg.svg");
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     height: 122px;
     position: absolute;
     z-index: -1;
