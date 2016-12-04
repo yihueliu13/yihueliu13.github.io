@@ -118,6 +118,12 @@
     background-image: url("../img/btn_start_active.svg");
     background-repeat: no-repeat;
   }
+  .cp{
+    width: 250px;
+    margin: auto;
+
+    height: 57px;
+  }
 
   .male{
     background-image: url("../img/footer_man.svg");
@@ -143,13 +149,12 @@
 
   .bottom_bgimg {
     background-image: url("../img/img_bottom_bg.svg");
-    background-repeat: repeat;
-    background-position: bottom;
-    background-attachment: fixed;
+    background-repeat: repeat-y;
     height: 122px;
-    position: absolute;/*置底且在最後面*/
-    z-index: -1;/*置底且在最後面*/
+    position: absolute;
+    z-index: -1;
   }
+
 
 /*背景動畫 CSS--------------------------------start------------------*/
 .sky-cloud{

@@ -69,8 +69,7 @@ body{
     height: 0;
     width: 100%;
     position: fixed;
-    position: absolute;
-    z-index: 999;
+    z-index: 900;
     top: 0;
     background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, .95);
@@ -78,25 +77,16 @@ body{
     transition: 0.5s;
 }
 
-.overlay a {
+.overlay a.closebtn{
     text-decoration: none;
     font-size: 36px;
     color: #818181;
     display: block;
     transition: 0.5s;
-    right: 5%;
-    top:1.1%;
     position: absolute;
+    top:1%;
+    right: 5%;
 }
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
 
 .overlay a:hover, .overlay a:focus {
     color: #000000;
@@ -106,7 +96,6 @@ a.btn-R{
   position: absolute;
   top: 25%;
   right: 3%;
-  /*color: #000;*/
   color: #000000;
 }
 
@@ -117,9 +106,87 @@ a.btn-R:hover{
   color: #BA0016;
 }
 
+.overlay-content{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+ul.overlay-drop{
+  width: 300px;
+  margin: auto;
+  list-style-type:  none;
+}
+
+li.drop-list a{
+  display: block;
+  margin-bottom: 45px;
+  width: 300px;
+  height: 70px;
+}
+
+li.drop-list a.btn-1{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-1:hover{
+  background-image: url("../img/nav_means_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-2{
+  background-image: url("../img/nav_character_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-2:hover{
+  background-image: url("../img/nav_character_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-3{
+  background-image: url("../img/nav_benefit_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-3:hover{
+  background-image: url("../img/nav_benefit_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-4{
+  background-image: url("../img/nav_award_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-4:hover{
+  background-image: url("../img/nav_award_act.svg");
+  background-repeat: no-repeat;
+}
 
 
-@media screen and (max-height: 450px) {
+
+
+
+
+/*li.bt_all a.btn_1{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 70px;
+}
+li.bt_all a.btn_2{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 70px;
+}*/
+
+
+
+
+/*@media screen and (max-height: 100%) {
   .overlay {overflow-y: auto;}
   .overlay a {font-size: 20px}
   .overlay .closebtn {
@@ -127,4 +194,4 @@ a.btn-R:hover{
     top: 15px;
     right: 35px;
   }
-}
+}*/
