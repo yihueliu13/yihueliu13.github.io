@@ -139,8 +139,9 @@
     background-repeat: repeat;
     background-position: bottom;
     height: 122px;
-    position: absolute;
+    
     z-index: -1;
+    position: fixed;
   }
 
 
