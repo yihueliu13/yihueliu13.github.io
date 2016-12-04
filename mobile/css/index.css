@@ -10,28 +10,26 @@
   margin: 0;
 }
 
-.body{
-  overflow: hidden;
+.inner-container{
+  width: 100%;
+  text-align: center;
+  padding-right: 0;
+  padding-left: 0;
 }
-  .inner-content{
-    width: 100%;
-    margin-top: 70px;
-    text-align: center;
-    position: relative;
-  }
+.inner-content{
+  padding-top: 70px;
+}
 
-  .header{
-    display:inline-block;
-    width: 375px;
-    max-width: 360px;
-  }
+.header{
+  display:inline-block;
+}
 
-  .header .lantern{
-    float: left;
-    background-image: url("../img/img_lantern.svg");
-    width: 70px;
-    height: 118px;
-  }
+.header .lantern{
+  float: left;
+  background-image: url("../img/img_lantern.svg");
+  width: 70px;
+  height: 118px;
+}
 
   .header .wording-index{
     float: left;
@@ -51,30 +49,18 @@
     height: 118px;
   }
 
-  .content{
-    clear: both;
-    width: 100%;
-    margin-top: 10px;
-    display: flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    justify-content: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    align-items: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-  }
+.content{
+  clear: both;
+  width: 100%;
+  text-align: center;
 
-  .con-inner{
-    width: 250px;
-    max-width: 250px;
-    height: 300px;
-    max-height: 100%;
-  }
+}
+
+.con-inner{
+  width: 250px;
+  margin: auto;
+
+}
 
   .chicken{
     background-image: url("../img/index_chicken.svg");
@@ -119,30 +105,33 @@
     background-repeat: no-repeat;
   }
   .cp{
-    width: 250px;
-    margin: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
   }
 
   .male{
     background-image: url("../img/footer_man.svg");
     background-repeat: no-repeat;
+    background-position: left;
+    background-position: bottom;
     width: 66px;
     height: 55px;
     position: absolute;
-    bottom: 13px;
-    left: 36px;
-    z-index: 1;
+
   }
 
   .female{
     background-image: url("../img/footer_woman.svg");
     background-repeat: no-repeat;
+    background-position: right;
+    background-position: bottom;
     width: 66px;
     height: 57px;
     position: absolute;
-    bottom: 13px;
-    right: 26px;
-    z-index: 1;
+    right: 0;
+
+
   }
 
   .bottom_bgimg {
