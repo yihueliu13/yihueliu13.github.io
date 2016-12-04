@@ -70,7 +70,7 @@
     position: absolute;
     z-index: 999;
     left:60%;
-    top:72%;
+    top:60%;
   }
 
   .con-inner .kv1{
@@ -137,6 +137,7 @@
   .bottom_bgimg {
     background-image: url("../img/img_bottom_bg.png");
     background-repeat: repeat;
+    background-position: bottom;
     height: 122px;
     position: absolute;
     z-index: -1;
