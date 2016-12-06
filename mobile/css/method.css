@@ -201,7 +201,7 @@
   /*tab1 活動辦法 method */
   .content-mid {
     width: 360px;
-    min-width: -width: 360px;
+    min-width: 360px;
     margin-top: 70px;
     text-align: center;
     overflow: auto;
@@ -375,6 +375,14 @@
   ul.foo-tab li.list a.tab3 {
     background-image: url("../img/bottom_tab_3.svg");
   }
+
+  /* ＝＝＝＝＝＝＝＝＝＝新角色介紹 ＝＝＝＝＝＝＝＝＝＝ */
+
+  .character {
+    width: 100%;
+    margin: auto;
+  }
+
 }
 
 /* 小螢幕設備（平板，小於 480px） Small Devices, Tablets  */
