@@ -633,6 +633,60 @@
   }
 }
 
+@media only screen and (min-width: 412px) {
+
+  .cp {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+  .male {
+      background-image: url(../img/footer_man.svg);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-position: bottom;
+      width: 66px;
+      height: 55px;
+      position: absolute;
+      bottom: -130px;
+    }
+
+    .female {
+      background-image: url(../img/footer_woman.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position: bottom;
+      width: 66px;
+      height: 57px;
+      position: absolute;
+      right: 0;
+      bottom: -130px;
+    }
+
+  .chicken {
+      background-image: url(../img/index_chicken.svg);
+      background-repeat: no-repeat;
+      width: 130px;
+      height: 134px;
+      position: absolute;
+      z-index: 333;
+      left: 58%;
+      top: 40%;
+      background-size: 100%;
+    }
+
+  .bottom_bgimg {
+    background-image: url(../img/img_bottom_bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   .chicken {
       background-image: url(../img/index_chicken.svg);
