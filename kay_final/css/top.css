@@ -1,0 +1,197 @@
+/* 超小螢幕設備（手機，小於 768px） */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-image: url("../img/bg_paper_min.png");
+  background-repeat: repeat;
+  /*overflow-x:hidden;*/
+}
+
+.container-nav{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-nav > .navbar-header{
+  margin-left: 0;
+  margin-right: 0;
+} /*下拉選單的寬度修改成0，覆蓋原生屬性*/
+
+  .nav-h{
+    background-color: rgba(255, 255, 255, .95);
+    height: 70px;
+    border-color: rgba(255, 255, 255, 0);
+    background-attachment: fixed;
+    -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.18);
+       -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.18);
+            box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.18);
+  }
+
+
+  .navbar-cht{
+    background-image: url("../img/btn_logo_cht.svg");
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 36px;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+  .navbar-line{
+    background-image: url("../img/btn_line_joinin.svg");
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+  }
+
+  .navbar-header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, .95);
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.32);
+    position: relative;
+    position: fixed;
+  }
+
+  .overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .95);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay a.closebtn{
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.5s;
+    position: absolute;
+    top:1%;
+    right: 5%;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #000000;
+}
+
+a.btn-R{
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  color: #000000;
+}
+
+a.btn-R:hover{
+  position: absolute;
+  top: 25%;
+  right: 3%;
+  color: #BA0016;
+}
+
+.overlay-content{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+ul.overlay-drop{
+  width: 300px;
+  margin: auto;
+  list-style-type:  none;
+}
+
+li.drop-list a{
+  display: block;
+  margin-bottom: 45px;
+  width: 300px;
+  height: 70px;
+}
+
+li.drop-list a.btn-1{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-1:hover{
+  background-image: url("../img/nav_means_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-2{
+  background-image: url("../img/nav_character_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-2:hover{
+  background-image: url("../img/nav_character_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-3{
+  background-image: url("../img/nav_benefit_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-3:hover{
+  background-image: url("../img/nav_benefit_act.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-4{
+  background-image: url("../img/nav_award_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-4:hover{
+  background-image: url("../img/nav_award_act.svg");
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*li.bt_all a.btn_1{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 70px;
+}
+li.bt_all a.btn_2{
+  background-image: url("../img/nav_means_nor.svg");
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 70px;
+}*/
+
+
+
+
+/*@media screen and (max-height: 100%) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}*/

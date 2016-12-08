@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="44px" viewBox="0 0 120 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>benefit_fb_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-489.000000, -31.000000)">
+            <g id="benefit_fb_normal" transform="translate(491.000000, 34.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.120755)" fill="#3C5999">
+                    <path d="M113.927547,36.0241689 C115.029113,36.0241689 115.922392,35.1342235 115.922392,34.0367681 L115.922392,2.00170251 C115.922392,0.903842351 115.029113,0.014166808 113.927547,0.014166808 L1.99485777,0.014166808 C0.892885776,0.014166808 1.35427308e-05,0.903842351 1.35427308e-05,2.00170251 L1.35427308e-05,34.0367681 C1.35427308e-05,35.1342235 0.892885776,36.0241689 1.99485777,36.0241689 L113.927547,36.0241689 Z" id="Fill-1"></path>
+                </g>
+                <path d="M24.9391281,36.1449241 L24.9391281,22.2000628 L29.6375077,22.2000628 L30.3409171,16.7654054 L24.9391281,16.7654054 L24.9391281,13.2956168 C24.9391281,11.7221566 25.3776418,10.6499316 27.642528,10.6499316 L30.5311925,10.6485824 L30.5311925,5.78788314 C30.0314657,5.72177137 28.3168206,5.57376196 26.3219764,5.57376196 C22.1571804,5.57376196 19.3060293,8.10638246 19.3060293,12.7575479 L19.3060293,16.7654054 L14.5957322,16.7654054 L14.5957322,22.2000628 L19.3060293,22.2000628 L19.3060293,36.1449241 L24.9391281,36.1449241 Z" id="Fill-4" fill="#FEFEFE"></path>
+                <text id="facebook分享" font-family="PingFangTC-Semibold, PingFang TC" font-size="11" font-weight="500" fill="#FFFFFF">
+                    <tspan x="37.65625" y="22">facebook分享</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
