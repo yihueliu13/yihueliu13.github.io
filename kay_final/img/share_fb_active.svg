@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="220px" height="49px" viewBox="0 0 220 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>share_fb_active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-394.000000, -1543.000000)">
+            <g id="bottom" transform="translate(52.000000, 1436.000000)">
+                <g id="btn_fbshare" transform="translate(2.000000, 107.000000)">
+                    <g id="share_fb_active" transform="translate(343.000000, 2.000000)">
+                        <g id="Group-3" transform="translate(0.000000, 0.146864)" fill="#344F87">
+                            <path d="M211.533503,43.8131784 C212.873246,43.8131784 213.959665,42.7308124 213.959665,41.3960694 L213.959665,2.43450305 C213.959665,1.09926772 212.873246,0.0172299016 211.533503,0.0172299016 L2.42617837,0.0172299016 C1.08594216,0.0172299016 1.64708886e-05,1.09926772 1.64708886e-05,2.43450305 L1.64708886e-05,41.3960694 C1.64708886e-05,42.7308124 1.08594216,43.8131784 2.42617837,43.8131784 L211.533503,43.8131784 Z" id="Fill-1"></path>
+                        </g>
+                        <path d="M30.3313721,43.9600428 L30.3313721,27.0000763 L36.0456175,27.0000763 L36.9011154,20.3903579 L30.3313721,20.3903579 L30.3313721,16.1703447 C30.3313721,14.256677 30.8646994,12.9526196 33.6192909,12.9526196 L37.1325314,12.9509786 L37.1325314,7.03931733 C36.5247556,6.95891113 34.4393764,6.77889968 32.0132145,6.77889968 C26.9479221,6.77889968 23.4803059,9.85911381 23.4803059,15.5159367 L23.4803059,20.3903579 L17.7515661,20.3903579 L17.7515661,27.0000763 L23.4803059,27.0000763 L23.4803059,43.9600428 L30.3313721,43.9600428 Z" id="Fill-4" fill="#FEFEFE"></path>
+                        <text id="facebook分享" font-family="PingFangTC-Semibold, PingFang TC" font-size="18" font-weight="500" fill="#FFFFFF">
+                            <tspan x="69" y="28">facebook分享</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
