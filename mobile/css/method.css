@@ -19,7 +19,7 @@
     margin-bottom: 100px;
   }
   .content-mid img:nth-child(1) {
-    margin: 20px 0 10px 0;
+    margin: 10px 0 10px 0;
   }
   .content-mid img:nth-child(2) {
     margin: 10px 0 10px 0;
@@ -120,8 +120,22 @@
     list-style: none;
   }
   ol.list-note li:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
+
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px dotted #4E4E4E;
+    /*border-style:dotted;*/
+  }
+
+  p.co-w span.year{
+    text-align: left!important;
+    font-size: 12px;
+  }
+
   /*＝＝＝＝＝＝＝＝＝＝不可點選的tab＝＝＝＝＝＝＝＝＝＝＝*/
   li.none {
     display: block;
@@ -208,7 +222,7 @@
     margin-bottom: 100px;
   }
   .content-mid img:nth-child(1) {
-    margin: 30px 0 10px 0;
+    margin: 15px 0 10px 0;
   }
   .content-mid img:nth-child(2) {
     margin: 10px 0 10px 0;
@@ -309,8 +323,24 @@
     list-style: none;
   }
   ol.list-note li:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
+
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px dotted #4E4E4E;
+    /*border-style:dotted;*/
+  }
+
+  p.co-w span.year{
+    text-align: left!important;
+    font-size: 12px;
+
+  }
+
+
   /*＝＝＝＝＝＝＝＝＝＝不可點選的tab＝＝＝＝＝＝＝＝＝＝＝*/
   li.none {
     display: block;
@@ -510,8 +540,23 @@
     list-style: none;
   }
   ol.list-note li:last-child {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
+
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px dotted #4E4E4E;
+    /*border-style:dotted;*/
+  }
+
+  p.co-w span.year{
+    text-align: left!important;
+    font-size: 12px;
+
+  }
+
   /*＝＝＝＝＝＝＝＝＝＝不可點選的tab＝＝＝＝＝＝＝＝＝＝＝*/
   li.none {
     display: block;

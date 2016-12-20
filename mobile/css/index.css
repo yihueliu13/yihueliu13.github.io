@@ -141,7 +141,7 @@
   }
 
   .bottom_bgimg {
-    background-image: url(../img/img_bottom_bg.png);
+    background-image: url(../img/img_bottom_bg.svg);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 80%;
@@ -412,6 +412,7 @@
     margin-top: 10px;
   }
 
+
   a.btn-img{
     overflow: hidden;
     display: block;
@@ -456,7 +457,7 @@
   }
 
   .bottom_bgimg {
-    background-image: url(../img/img_bottom_bg.png);
+    background-image: url(../img/img_bottom_bg.svg);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 80%;
@@ -633,6 +634,60 @@
   }
 }
 
+@media only screen and (min-width: 412px) {
+
+  .cp {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+
+  .male {
+      background-image: url(../img/footer_man.svg);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-position: bottom;
+      width: 66px;
+      height: 55px;
+      position: absolute;
+      bottom: -130px;
+    }
+
+    .female {
+      background-image: url(../img/footer_woman.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+      background-position: bottom;
+      width: 66px;
+      height: 57px;
+      position: absolute;
+      right: 0;
+      bottom: -130px;
+    }
+
+  .chicken {
+      background-image: url(../img/index_chicken.svg);
+      background-repeat: no-repeat;
+      width: 130px;
+      height: 134px;
+      position: absolute;
+      z-index: 333;
+      left: 58%;
+      top: 40%;
+      background-size: 100%;
+    }
+
+  .bottom_bgimg {
+    background-image: url(../img/img_bottom_bg.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+}
+
 @media only screen and (min-width: 480px) {
   .chicken {
       background-image: url(../img/index_chicken.svg);
@@ -647,12 +702,36 @@
     }
 
   .bottom_bgimg {
-    background-image: url(../img/img_bottom_bg.png);
+    background-image: url(../img/img_bottom_bg.svg);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: 50%;
     height: 100%;
     position: fixed;
     z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .con-inner a.btn, a.a.btn-img, a.btn-img:hover {
+    visibility:hidden;
+  }
+
+  .code{
+    background-image: url("../img/qrcode.png");
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 250px;
+    margin: auto;
+    margin-top: -80px;
+  }
+  .code::after{
+    content: "手機掃描 QR CODE 馬上挑戰";
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(255, 22, 64);
+    line-height: 2em;
   }
 }

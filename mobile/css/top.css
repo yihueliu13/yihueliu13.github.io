@@ -1,4 +1,4 @@
-/* 超小螢幕設備（手機，小於 768px） */
+/* �W�p�ù��]�ơ]�����A�p�� 768px�^ */
 *{
   box-sizing: border-box;
   padding: 0;
@@ -22,7 +22,7 @@ body{
 .container-nav > .navbar-header{
   margin-left: 0;
   margin-right: 0;
-} /*下拉選單的寬度修改成0，覆蓋原生屬性*/
+} /*�U�Կ��檺�e�׭ק令0�A�л\�����ݩ�*/
 
   .nav-h{
     background-color: rgba(255, 255, 255, .95);
@@ -109,7 +109,7 @@ a.btn-R:hover{
 .overlay-content{
   width: 100%;
   position: absolute;
-  top: 20%;
+  top: 10%;
 }
 
 ul.overlay-drop{
@@ -120,9 +120,19 @@ ul.overlay-drop{
 
 li.drop-list a{
   display: block;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   width: 300px;
   height: 70px;
+}
+
+li.drop-list a.btn-5{
+  background-image: url("../img/nav_home_nor.svg");
+  background-repeat: no-repeat;
+}
+
+li.drop-list a.btn-5:hover{
+  background-image: url("../img/nav_home_act.svg");
+  background-repeat: no-repeat;
 }
 
 li.drop-list a.btn-1{
