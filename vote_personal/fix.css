@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Helvetica Neue",Helvetica,Arial,"微軟正黑體","Microsoft YaHei",'新細明體',sans-serif;
+}
+
+.nav-H{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-color: #ffffff;
+  border: 0px solid transparent;
+  -webkit-box-shadow: 0px 6px 24px -12px rgba(0,0,0,0.27);
+  -moz-box-shadow: 0px 6px 24px -12px rgba(0,0,0,0.27);
+  box-shadow: 0px 6px 24px -12px rgba(0,0,0,0.27);
+}
+.container {
+  width: 970px;
+  max-width: none !important;
+  height: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.con-w{
+  text-align: center;
+  margin-top: 25px;
+}
+.nav-tit{
+  padding: 0 15px;
+}
+.navbar-brand>img {
+  display: block;
+  margin-left: 10px;
+}
+/* fb icon */
+.circle-fa{
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #005BAB;
+}
+.fa-color{
+  color:#ffffff;
+}
+.fa-gap{
+  font-size: 1.1em;
+}
+/* navbar start  */
+ul.nav-R{
+  margin-right: 10px;
+}
+
+.navbar-nav>li>a{
+  padding-top: 0px;
+}
+
+li.nav-w>a{
+  margin-top: 10px;
+  height: 13px;
+}
+ul.navbar-nav li.nav-w{
+  width: 61px;
+  margin: 0 10px;
+}
+li a.nav_vote{
+  background-image: url(../img/nav_vote.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_introduce{
+  background-image: url(../img/nav_introduce.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_selection{
+  background-image: url(../img/nav_selection.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_map{
+  background-image: url(../img/nav_map.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_award{
+  background-image: url(../img/nav_award.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_seek{
+  background-image: url(../img/nav_seek.svg);
+  background-repeat: no-repeat;
+}
+li a.nav_contact{
+  background-image: url(../img/nav_contact.svg);
+  background-repeat: no-repeat;
+}
+
+li.nav-w>a:hover.nav_vote{
+  background-image: url(../img/nav_en_vote.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_introduce{
+  background-image: url(../img/nav_en_introduce.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_selection{
+  background-image: url(../img/nav_en_selection.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_map{
+  background-image: url(../img/nav_en_map.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_award{
+  background-image: url(../img/nav_en_winner.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_seek{
+  background-image: url(../img/nav_en_search.svg);
+  background-repeat: no-repeat;
+}
+li.nav-w>a:hover.nav_contact{
+  background-image: url(../img/nav_en_contact.svg);
+  background-repeat: no-repeat;
+}
+/*section last*/
+.last{
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+.date{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 150px;
+  background-color: #FFF000;
+}
+.date>img{
+  width: 90%;
+}
+.sponsor{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 120px;
+  background-color: #F5F5F5;
+  margin-bottom: 90px;
+}
+.sponsor>img{
+  width: 70%;
+}
+/*footer*/
+footer{
+  width: 100%;
+}
+footer.ft-h{
+  height: 90px;
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ============================= 內頁header top */
+.sec-top{
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/top_patern_s.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.sec-h-kv{
+  text-align: center;
+  margin: 0 auto;
+  width: 970px;
+  margin: 0 auto;
+}
+.header-sec>p>img{
+  width: 80%;
+}
+
+.header-sec>p:nth-child(1){
+  margin-top: 150px;
+}
