@@ -7,11 +7,11 @@
   height: 80px;
   margin: auto;
   margin-bottom: 35px;
-  border-left: 6px solid transparent;
-	  -moz-border-image: -moz-linear-gradient(top, #FFB8AC 0%, #A5B6F3 100%);
-	  -webkit-border-image: -webkit-linear-gradient(top, #FFB8AC 0%, #A5B6F3 100%);
-  border-image: linear-gradient(to bottom, #FFB8AC 0%,#A5B6F3 100%);
-  border-image-slice: 1;
+  border-left: 4px solid #A5B6F3;
+  /*border-image: linear-gradient(to bottom, #FFB8AC, #A5B6F3);
+  -moz-border-image: -moz-linear-gradient(top, #FFB8AC, #A5B6F3);
+  -webkit-border-image: -webkit-linear-gradient(top, #FFB8AC, #A5B6F3);;
+  border-image-slice: 1;*/
 }
 .main-tit>h3{
   font-size: 2.25em;
@@ -188,7 +188,6 @@
   margin: 0 10px;
 }
 .inside-img{
-  /*background-image: url(../img/indxe_s2_1.png);*/
   background-repeat: no-repeat;
   background-position: 100% 100%;
   width: 100%;
@@ -431,7 +430,6 @@
     margin-left: 10%;
     margin-top: 65%;
   }
-
   .box-inside :nth-child(2) {
     font-size: 1.5em;
     letter-spacing: .2em;
@@ -461,7 +459,6 @@
     width: 70%;
   }
   .inside-img {
-
     background-position: 0% 30%;
   }
   .s2-img1{
