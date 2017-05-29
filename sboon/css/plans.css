@@ -91,7 +91,7 @@ a:hover{
 
 @media (max-width: 600px){
   .row-tit {
-    padding-top: 4.5em;
+    padding-top: 3em;
   }
   .main-tit {
     background-size: 12%;
@@ -104,7 +104,7 @@ a:hover{
 
 @media (max-width: 414px){
   .row-tit {
-    padding-top: 5.5em;
+    padding-top: 2em;
   }
   .main-tit {
     background-size: 18%;
@@ -114,6 +114,7 @@ a:hover{
     width: 30%;
   }
 }
+
 @media (max-width: 360px){
   .row-tit {
     padding-top: 2.8em;
@@ -194,8 +195,35 @@ a:hover{
   .int-kv img {
     width: 50%;
   }
+  .main-tit {
+    width: 100%;
+    height: 10em;
+    background-color: #F7F8F9;
+    background-image: url(../img/main_patten1.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: contain;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 715px){
+  .main-tit {
+    height: 8em;
+  }
+  .row-tit {
+    padding-top: 3em;
+  }
+  .row-tit img {
+    width: 25%;
+  }
 }
 @media (max-width: 600px){
+  .row-tit {
+    padding-top: 2em;
+  }
+  .main-tit {
+    height: 6em;
+  }
   .row-introduc{
     display: flex;
     flex-direction: column;
@@ -216,7 +244,6 @@ a:hover{
   }
   .int-kv img {
     width: 50%;
-
   }
 }
 @media (max-width: 414px){
@@ -242,7 +269,33 @@ a:hover{
     width: 65%;
   }
 }
+@media (max-width: 375px){
+  .main-tit {
+    margin-top: 90px;
+  }
+  .main-tit {
+    height: 5em;
+  }
+  .row-tit {
+    padding-top: 1.5em;
+  }
+}
+@media (max-width: 360px){
+  .main-tit {
+    margin-top: 50px;
+  }
+  .row-tit img {
+    width: 30%;
+  }
+  .row-tit {
+    padding-top: 2.3em;
+  }
+}
 @media (max-width: 320px){
+  .main-tit {
+    margin-top: 50px;
+    height: 5em;
+  }
   .row-introduc{
     display: flex;
     flex-direction: column;
@@ -263,6 +316,9 @@ a:hover{
   }
   .int-kv img {
     width: 50%;
+  }
+  .row-tit {
+    padding-top: 2em;
   }
 }
  /*How to choose a plan */
