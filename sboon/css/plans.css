@@ -104,14 +104,14 @@ a:hover{
 
 @media (max-width: 414px){
   .row-tit {
-    padding-top: 4.5em;
+    padding-top: 5.5em;
   }
   .main-tit {
-    background-size: 12%;
-    height: 8em;
+    background-size: 18%;
+    height: 10em;
   }
   .row-tit img{
-    width: 23%;
+    width: 30%;
   }
 }
 @media (max-width: 360px){
