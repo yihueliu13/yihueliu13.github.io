@@ -452,46 +452,46 @@ ul.nav-social {
         height: 0px;
     }
     #navbar {
-        background-color: #ffffff;
+      background-color: #ffffff;
     }
     .navbar-collapse {
-        max-height: 0px;
+      max-height: 0px;
+    }
+    .in .nav-R{
+      height: : 500px;
+      background-color: white;
     }
     .nav-L {
-        float: none;
-        /*logo*/
-
-        margin: 0 auto!important;
-        width: 100%;
-        max-width: 100%;
-        height: 90px;
-        background-image: url(../img/bg_logo_s.svg);
-        background-repeat: no-repeat;
-        background-position: left;
-        height: 90px;
-        background-color: rgba(255, 255, 255, 1);
-    }
-    .in .nav-R,
-    {
-        height: : 500px;
-        background-color: white;
+      float: none;
+      margin: 0 auto!important;
+      width: 100%;
+      max-width: 100%;
+      height: 90px;
+      background-color: rgba(255, 255, 255, 1);
     }
     .sboon-logo {
-        display: none;
+      width: 80%;
+      padding: 0px 0px;
+      display: block;
+      float: none;
+      height: 90px;
+      justify-content: center;
+      background-position: 0% 40%;
+      background-image: url(../img/bg_logo_s.svg);
     }
     .navbar-toggle {
-        position: relative;
-        float: right;
-        padding: 9px 10px;
-        margin-top: 30px;
-        margin-right: 30px;
-        margin-bottom: 8px;
-        background-color: transparent;
-        background-image: none;
-        border-radius: 0px;
+      position: relative;
+      float: right;
+      padding: 9px 10px;
+      margin-top: 30px;
+      margin-right: 30px;
+      margin-bottom: 8px;
+      background-color: transparent;
+      background-image: none;
+      border-radius: 0px;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #A5B6F3;
+      background-color: #A5B6F3;
     }
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
@@ -609,23 +609,18 @@ ul.nav-social {
     }
 }
 @media (max-width: 360px) {
-    .container-nav {
-        background-image: url(../img/bg_logo_xs.svg);
-        background-repeat: no-repeat;
-        background-position: left;
-        width: 100%;
-        height: 0;
-    }
+  .sboon-logo {
+    width: 80%;
+    padding: 0px 0px;
+    display: block;
+    float: none;
+    height: 60px;
+    justify-content: center;
+    background-position: 0% 40%;
+    background-image: url(../img/bg_logo_xs.svg);
+  }
     .nav-L {
-        float: none;
-        margin: 0 auto!important;
-        width: 100%;
-        max-width: 100%;
-        height: 58px;
-        background-image: url(../img/bg_logo_xs.svg);
-        background-repeat: no-repeat;
-        background-position: left;
-        background-color: rgba(255, 255, 255, 1);
+        height: 60px;
     }
     .con-slider {
         margin-top: 65px;
