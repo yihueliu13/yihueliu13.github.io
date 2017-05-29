@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="323" height="218" viewBox="0 0 323 218">
+  <g fill="#FFF" fill-rule="evenodd" transform="translate(0 -17)">
+    <g opacity=".5" transform="translate(0 44)">
+      <polygon points="270.5 0 270.5 8 315 8 315 175 270.5 175 270.5 183 323.001 183 323.001 0"/>
+      <polygon points="0 0 0 183 52.5 183 52.5 175 8 175 8 8 52.5 8 52.5 0"/>
+    </g>
+    <g transform="translate(85)">
+      <text font-family="PingFangTC-Thin, PingFang TC" font-size="36" font-weight="300">
+        <tspan x="0" y="49">取代</tspan>
+      </text>
+      <text font-family="ArcherPro-Semibold, ArcherPro" font-size="64" font-weight="500">
+        <tspan x="79" y="51">2</tspan>
+      </text>
+      <text font-family="PingFangTC-Thin, PingFang TC" font-size="36" font-weight="300">
+        <tspan x="120" y="49">餐</tspan>
+      </text>
+    </g>
+    <text font-family="ArcherPro-Bold, ArcherPro" font-size="30" font-weight="bold">
+      <tspan x="92.825" y="102">The Sboon</tspan> <tspan x="67.6" y="148" font-size="40">Advanture</tspan>
+    </text>
+    <text font-family="PingFangTC-Regular, PingFang TC" font-size="18" letter-spacing="16">
+      <tspan x="89" y="233">湯品計</tspan> <tspan x="191" y="233">畫</tspan>
+    </text>
+    <text font-family="ArcherPro-Bold, ArcherPro" font-size="28" font-weight="bold" letter-spacing="24.889">
+      <tspan x="227" y="233">2</tspan>
+    </text>
+  </g>
+</svg>
