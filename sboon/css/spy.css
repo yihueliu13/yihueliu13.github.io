@@ -1,0 +1,70 @@
+.menu {
+		font-family:Raleway;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background: #ffffff;
+    transition: all .3s;
+    text-align:center;
+		border-bottom: 1px solid #eee;
+}
+.menu ul{
+    padding:0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
+}
+.menu ul li{
+    display:inline-block;
+    font-size:1.1em;
+		margin: 0 100px;
+}
+.menu ul li a{
+    display:block;
+    padding:20px 20px;
+    color: #CFCFCF;
+    text-transform: uppercase;
+		cursor:pointer;
+		border-bottom:4px solid transparent;
+		transition: all.3s;
+		font-size: 1.5em;
+}
+.menu ul li a:visited{
+	color: #FFB8AC;
+}
+.menu ul li a:hover,.menu ul li a.active{
+    text-decoration:none;
+		color: #FFB8AC;
+}
+.menu ul li a:focus{
+    outline: 0!important;
+		color: #FFB8AC;
+		text-decoration:none;
+}
+.menu ul li a.active{
+		border-color:#FFB8AC;
+}
+/*DIVS*/
+.main{padding-top:45px;text-align:center;}
+
+h1{color:#fafafa;position:absolute;top:30%;left:50%;transform:translateX(-50%); font-family:Galada;font-weight:400;font-size:3em;}
+
+.main div{position:relative}
+
+#p1-day1{
+  min-height:50vh;
+	background: #fff; /* fallback for old browsers */
+}
+#p1-day2{
+	min-height:50vh;
+	background: #F5F5F5; /* fallback for old browsers */
+}
+#p1-day3{
+	min-height:50vh;
+	background: #F5F5F5; /* fallback for old browsers */
+}
+#park{
+	min-height:50vh;
+	background: #F5F5F5; /* fallback for old browsers */
+}
