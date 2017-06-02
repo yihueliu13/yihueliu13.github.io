@@ -538,9 +538,9 @@ ul.nav-social {
         margin: 7.5px 0px;
     }
     /*下拉選單 樣式重置*/
-    /*.navbar-nav .open .dropdown-menu>li>a {
+    .navbar-nav .open .dropdown-menu>li>a {
         line-height: 30px;
-    }*/
+    }
 
     .navbar-default .navbar-nav>.open>a,
     .navbar-default .navbar-nav>.open>a:focus,
