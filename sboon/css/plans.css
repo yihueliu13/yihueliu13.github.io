@@ -1004,13 +1004,99 @@ a:hover{
 }
 
 /*  plans-name  */
+
+/*plan1*/
 .plan-name{
+  max-width: 1340px;
   text-align: center;
 }
 .plan-name img{
   padding-top: 6%;
   padding-bottom: 3%;
 }
+
+/*plan2/3*/
+.tab-day{
+
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+.day-inner{
+  width: 50%;
+}
+/* -------tab */
+
+/*plan2 tab*/
+.tab-day .day-L{
+  background-image:url(../img/menu_3d_active.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  border-right: 6px solid #F5F5F5;
+  background-position: center;
+}
+.tab-day .day-L a{
+  display: block;
+  background-image:url(../img/menu_3d_normal.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-L a:hover{
+  background-image:url(../img/menu_3d_active.svg);
+}
+.tab-day .day-R{
+  background-image:url(../img/menu_6d_active.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-R a{
+  display: block;
+  background-image:url(../img/menu_6d_normal.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-R a:hover{
+  background-image:url(../img/menu_6d_active.svg);
+}
+
+/*plan3 tab*/
+.tab-day .day-L-p3{
+  background-image:url(../img/menu_1d_active.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  border-right: 6px solid #F5F5F5;
+  background-position: center;
+}
+.tab-day .day-L-p3 a{
+  display: block;
+  background-image:url(../img/menu_1d_normal.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-L-p3 a:hover{
+  background-image:url(../img/menu_1d_active.svg);
+}
+.tab-day .day-R-p3{
+  background-image:url(../img/menu_3d_active.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-R-p3 a{
+  display: block;
+  background-image:url(../img/menu_3d_normal.svg);
+  background-repeat: no-repeat;
+  height: 60px;
+  background-position: center;
+}
+.tab-day .day-R-p3 a:hover{
+  background-image:url(../img/menu_3d_active.svg);
+}
+
 /*  plans-btn-order  */
 
 .plan-order{

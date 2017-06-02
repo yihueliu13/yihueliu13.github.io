@@ -445,6 +445,9 @@ ul.nav-social {
     }
 }
 @media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu>li>a {
+        line-height: 30px;
+    }
     .container-nav {
         background-image: url(../img/bg_img3.svg);
         background-repeat: no-repeat;

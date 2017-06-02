@@ -136,6 +136,7 @@
     width: 98%;
     height: 120px;
     padding-top: 20%;
+    border-radius: 6px;
 
     transition-property: all;
     transition-duration: 0.4s;

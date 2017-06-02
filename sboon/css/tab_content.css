@@ -19,6 +19,10 @@
 		a {
 		  text-decoration: none;
 		}
+    img{
+      max-width: 100%;
+      height: auto!important;
+    }
 
 /*tab裡面的內容*/
 
