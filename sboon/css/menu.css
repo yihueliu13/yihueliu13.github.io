@@ -66,6 +66,11 @@
 .navbar-collapse.in {
     overflow-y: visible;
 }
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #7E90D2;
+    background-color: transparent;
+}
+
 /*自訂選單樣式*/
 
 .nav-content {
@@ -533,6 +538,9 @@ ul.nav-social {
         margin: 7.5px 0px;
     }
     /*下拉選單 樣式重置*/
+    .navbar-nav .open .dropdown-menu>li>a {
+        line-height: 30px;
+    }
 
     .navbar-default .navbar-nav>.open>a,
     .navbar-default .navbar-nav>.open>a:focus,

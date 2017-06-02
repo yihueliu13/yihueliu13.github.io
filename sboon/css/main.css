@@ -272,8 +272,10 @@
   margin-top: 5%;
 }
 .btn-chose:hover{
-  color: #7E90D2;
+  color: #fff;
   text-decoration: none;
+  background-color: #A5B6F3;
+  border: none;
 }
 
 

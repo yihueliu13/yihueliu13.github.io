@@ -78,7 +78,7 @@
 		  position: relative;
 		}
 		.tab-underline .line {
-		  width: 33.33%;
+		  width: 25%;
 		  display: inline-block;
 		  height: 1px;
 		  background-color: #FFB8AC;
@@ -86,24 +86,12 @@
 		  left: 0;
 		  transition: .3s ease-in-out;
 		}
-    .one-underline .line {
-      width: 33.33%;
-		  display: inline-block;
-		  height: 1px;
-		  background-color: #FFB8AC;
-    }
 
-    .tab li.active:first-child~.tab-underline .line {
-		  left: 0;
+
+		.tab li.active:first-child~.tab-underline .line {
+		  left: 38%;
 		}
 
-		.tab li.active:nth-child(2)~.tab-underline .line {
-		  left: 33.33%;
-		}
-
-		.tab li.active:last-of-type~.tab-underline .line {
-		  left: 66.66%;
-		}
 
 		.tab-component section {
 		  width: 100%;

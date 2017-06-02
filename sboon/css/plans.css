@@ -196,6 +196,9 @@ a:hover{
   .int-kv img {
     width: 50%;
   }
+  .row-tit img {
+    width: 35%;
+  }
   .main-tit {
     width: 100%;
     height: 10em;
@@ -211,17 +214,9 @@ a:hover{
   .main-tit {
     height: 10em;
   }
-  .row-tit {
-    padding-top: 3em;
-  }
-  .row-tit img {
-    width: 40%;
-  }
+
 }
 @media (max-width: 600px){
-  .row-tit {
-    padding-top: 2em;
-  }
   .main-tit {
     height: 8em;
   }
@@ -242,9 +237,6 @@ a:hover{
     text-align: center;
     width: 100%;
     margin-top: 5%;
-  }
-  .int-kv img {
-    width: 50%;
   }
 }
 @media (max-width: 414px){
@@ -270,7 +262,7 @@ a:hover{
     width: 65%;
   }
   .row-tit img {
-    width: 45%;
+    width: 50%;
   }
   .row-tit {
     padding-top: 2.5em;
@@ -684,6 +676,7 @@ a:hover{
   background-color: #F5F5F5;
 }
 .ex-down1 a{
+  width: 100%;
   font-size: 24px;
   color: #A5B6F3;
   line-height: 120px;
@@ -878,6 +871,7 @@ a:hover{
   .D-red {
     font-size: 20px;
   }
+
 }
 @media (max-width:670px){
   .exit-top {
@@ -1061,9 +1055,6 @@ a:hover{
     font-size: 1.4em;
     margin-top: -3.7%;
   }
-  .plan-name img {
-    width: 45%;
-  }
 }
 
 .plan-order a:hover{
@@ -1141,13 +1132,19 @@ a:hover{
   margin-right: 3%;
   font-weight: 500;
 }
+.other-down .other-normal{
+  width: 100%;
+}
+.other-normal{
+
+}
 @media (max-width:1200px) {
   .patten-L > img{
-    width: 80%;
+    width: 100%;
     margin-top: 10px;
   }
   .patten-R > img{
-    width: 35%;
+    width: 100%;
     margin-top: 10px;
   }
   .other-down .other-btn a {
@@ -1167,9 +1164,6 @@ a:hover{
   }
 }
 @media (max-width:980px) {
-  .plan-name img{
-    width: 45%;
-  }
   .other-top {
     width: 100%;
     background-color: #F8F9FB;
@@ -1185,9 +1179,6 @@ a:hover{
     }
 }
 @media (max-width:860px) {
-  .plan-name img{
-    width: 40%;
-  }
   .other-top {
     width: 100%;
     background-color: #F8F9FB;
@@ -1265,7 +1256,7 @@ a:hover{
     margin-top: -5%;
   }
   .plan-order {
-    margin-top: 6%;
+    margin-top: 15%;
     margin-bottom: 10%;
   }
   .other-top {
@@ -1274,12 +1265,12 @@ a:hover{
   .other-top p {
     margin-top: 15%;
   }
-  .patten-L > img {
+  /*.patten-L > img {
     width: 90%;
   }
   .patten-R > img {
     width: 45%;
-  }
+  }*/
   .other-down .other-btn a {
     line-height: 70px;
   }
@@ -1294,10 +1285,6 @@ a:hover{
   }
   .int-kv img {
     width: 70%;
-}
-  .plan-name img {
-    width: 50%;
-    padding-bottom: 3%;
   }
   .plan-order a {
     width: 240px;
@@ -1316,12 +1303,12 @@ a:hover{
     font-size: 24px;
     margin-top: 15%;
   }
-  .patten-L > img {
+  /*.patten-L > img {
     width: 90%;
   }
   .patten-R > img {
     width: 45%;
-  }
+  }*/
   .other-down .other-btn a {
     line-height: 70px;
   }
@@ -1391,7 +1378,7 @@ a:hover{
   }
 
   .plan-name img {
-    width: 90%;
+    width: 80%;
   }
   .other-top p {
     margin-top: 5%;
@@ -1501,4 +1488,3 @@ a:hover{
     height: 60px;
   }
 }
-/*plans1 menu*/
