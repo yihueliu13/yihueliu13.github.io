@@ -134,8 +134,8 @@
   .tab li a{
     background-color: #F5F5F5;
     width: 98%;
-    height: 120px;
-    padding-top: 20%;
+    height: 100px;
+    padding-top: 18%;
     border-radius: 6px;
 
     transition-property: all;
@@ -164,7 +164,8 @@
 }
 @media (max-width:450px) {
   .tab li a {
-    padding-top: 25%;
+    height: 90px;
+    padding-top: 20%;
   }
 }
 @media (max-width:414px) {

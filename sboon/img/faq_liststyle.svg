@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="20" viewBox="0 0 15 20">
+  <defs>
+    <linearGradient id="faq_liststyle-a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB8AC"/>
+      <stop offset="100%" stop-color="#A5B6F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="4" height="20" fill="url(#faq_liststyle-a)" fill-rule="evenodd" transform="matrix(-1 0 0 1 4 0)"/>
+</svg>

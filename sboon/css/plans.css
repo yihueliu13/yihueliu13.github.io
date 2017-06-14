@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft YaHei", '新細明體', sans-serif;
-    list-style-type: none;
+    /*list-style-type: none;*/
     /*font-size: 15px;
     letter-spacing: .2em;*/
 }
@@ -21,8 +21,8 @@ a:hover{
 }
 /* 每個內容的距離 */
 .content-top{
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /*內頁共用header*/
@@ -50,12 +50,12 @@ a:hover{
     margin-top: 11%;
   }
   .row-tit img{
-    width: 30%;
+    width: 35%;
   }
 }
 @media (max-width: 1024px){
-  .row-tit {
-    padding-top: 7em;
+  .row-tit img{
+    width: 35%;
   }
   .main-tit{
     background-size: 12%;
@@ -73,8 +73,9 @@ a:hover{
 }
 @media (max-width: 768px){
   .row-tit {
-    padding-top: 6em;
+    padding-top: 4.5em;
   }
+
   .main-tit {
     background-size: 12%;
     height: 10em;
@@ -89,7 +90,14 @@ a:hover{
     height: 10em;
   }
 }
-
+@media (max-width: 660px){
+  .row-tit {
+    padding-top: 4em;
+  }
+  .row-tit img{
+    width: 50%;
+  }
+}
 @media (max-width: 600px){
   .row-tit {
     padding-top: 3em;
@@ -99,7 +107,7 @@ a:hover{
     height: 9em;
   }
   .row-tit img{
-    width: 23%;
+    width: 45%;
   }
 }
 
@@ -197,7 +205,7 @@ a:hover{
     width: 50%;
   }
   .row-tit img {
-    width: 35%;
+    width: 40%;
   }
   .main-tit {
     width: 100%;
@@ -262,10 +270,10 @@ a:hover{
     width: 65%;
   }
   .row-tit img {
-    width: 50%;
+    width: 60%;
   }
   .row-tit {
-    padding-top: 2.5em;
+    padding-top: 3em;
   }
 }
 @media (max-width: 375px){
@@ -276,7 +284,7 @@ a:hover{
     height: 6em;
   }
   .row-tit {
-    padding-top: 1.5em;
+    padding-top: 2.5em;
   }
 }
 @media (max-width: 360px){
@@ -284,7 +292,7 @@ a:hover{
     margin-top: 50px;
   }
   .row-tit img {
-    width: 40%;
+    width: 50%;
   }
   .row-tit {
     padding-top: 2.3em;
@@ -626,7 +634,7 @@ a:hover{
   max-width: 1340px;
   margin: auto;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .all-tit > p{
   font-size: 2em;
@@ -829,15 +837,15 @@ a:hover{
 }
 @media (max-width:767px){
   .all-tit > p {
-    font-size: 2.4em;
+    font-size: 2em;
 }
   .all-tit > .bottom-line {
     width: 170px;
     margin: auto;
   }
   .all-tit {
-        width: 100%;
-    margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 30px;
     text-align: center;
   }
   .exit-BOX {
@@ -1096,6 +1104,139 @@ a:hover{
 .tab-day .day-R-p3 a:hover{
   background-image:url(../img/menu_3d_active.svg);
 }
+@media (max-width:768px) {
+  .tab-day .day-L{
+    background-size: 45%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L a{
+    background-size: 45%;
+  }
+  .tab-day .day-R{
+    background-size: 45%;
+  }
+  .tab-day .day-R a{
+    background-size: 45%;
+  }
+}
+@media (max-width:650px) {
+  .plan-name{
+    margin-bottom: 7%;
+  }
+}
+@media (max-width:500px) {
+  .tab-day .day-L{
+    background-size: 50%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L a{
+    background-size: 50%;
+  }
+  .tab-day .day-R{
+    background-size: 50%;
+  }
+  .tab-day .day-R a{
+    background-size: 50%;
+  }
+}
+@media (max-width:450px) {
+  .tab-day .day-L{
+    background-size: 60%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L a{
+    background-size: 60%;
+  }
+  .tab-day .day-R{
+    background-size: 60%;
+  }
+  .tab-day .day-R a{
+    background-size: 60%;
+  }
+}
+@media (max-width:370px) {
+  .tab-day .day-L{
+    background-size: 70%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L a{
+    background-size: 70%;
+  }
+  .tab-day .day-R{
+    background-size: 70%;
+  }
+  .tab-day .day-R a{
+    background-size: 70%;
+  }
+}
+
+/*p3*/
+@media (max-width:768px) {
+  .tab-day .day-L-p3{
+    background-size: 45%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L-p3 a{
+    background-size: 45%;
+  }
+  .tab-day .day-R-p3{
+    background-size: 45%;
+  }
+  .tab-day .day-R-p3 a{
+    background-size: 45%;
+  }
+}
+@media (max-width:650px) {
+  .plan-name{
+    margin-bottom: 7%;
+  }
+}
+@media (max-width:500px) {
+  .tab-day .day-L-p3{
+    background-size: 50%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L-p3 a{
+    background-size: 50%;
+  }
+  .tab-day .day-R-p3{
+    background-size: 50%;
+  }
+  .tab-day .day-R-p3 a{
+    background-size: 50%;
+  }
+}
+@media (max-width:450px) {
+  .tab-day .day-L-p3{
+    background-size: 60%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L-p3 a{
+    background-size: 60%;
+  }
+  .tab-day .day-R-p3{
+    background-size: 60%;
+  }
+  .tab-day .day-R-p3 a{
+    background-size: 60%;
+  }
+}
+@media (max-width:370px) {
+  .tab-day .day-L-p3{
+    background-size: 70%;
+    border-right: 4px solid #F5F5F5;
+  }
+  .tab-day .day-L-p3 a{
+    background-size: 70%;
+  }
+  .tab-day .day-R-p3{
+    background-size: 70%;
+  }
+  .tab-day .day-R-p3 a{
+    background-size: 70%;
+  }
+}
+
 
 /*  plans-btn-order  */
 
@@ -1322,7 +1463,7 @@ a:hover{
 }
 @media (max-width:767px) {
   .plan-name img {
-    width: 60%;
+    width: 30%;
     padding: 7% 0;
   }
   .plan-name{
@@ -1442,8 +1583,8 @@ a:hover{
       margin-bottom: 15%;
   }
   .plan-name img {
-    width: 70%;
-    padding-bottom: 10%;
+    width: 40%;
+    padding-bottom: 3%;
     margin-top: 3%;
   }
   .plan-order a {
@@ -1464,7 +1605,7 @@ a:hover{
   }
 
   .plan-name img {
-    width: 80%;
+    width: 50%;
   }
   .other-top p {
     margin-top: 5%;
@@ -1510,9 +1651,6 @@ a:hover{
   }
 }
 @media (max-width:375px) {
-  .plan-name img {
-    width: 85%;
-  }
   .other-top p {
     margin-top: 6%;
   }
@@ -1539,9 +1677,6 @@ a:hover{
   }
 }
 @media (max-width:320px) {
-  .plan-name img {
-    width: 85%;
-  }
   .other-top p {
     margin-top: 5%;
   }
