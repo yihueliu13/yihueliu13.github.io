@@ -21,8 +21,12 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<!-- menu-nav-css -->
 	<link rel="stylesheet" href="css/menu.css">
-	<!-- plans-css -->
+	<!-- main-css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- plan-css -->
 	<link rel="stylesheet" href="css/plans.css">
+	<!-- soup-css -->
+	<link rel="stylesheet" href="css/soup.css">
 </head>
 <body>
 	<!-- navrbar 響應式導航 -->
@@ -34,7 +38,9 @@
 			</div>
 			<div id="navbar" class="navbar-collapse collapse nav-top nav-R">
 				<ul class="nav navbar-nav nav-left">
-					<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">啟動計畫<span class="caret"></span></a>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">啟動計畫<span class="caret"></span>
+						</a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="plans.html">如何選擇計畫</a></li>
 							<li><a href="plans_1_3d.html">The Life Blender</a></li>
@@ -44,14 +50,16 @@
 							<li><a href="plans_3_3d.html">The Reset 3日</a></li>
 						</ul>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">了解湯品<span class="caret"></span></a>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">了解湯品<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="soup_how.html">How to sboon</a></li>
 							<li><a href="soup_soups.html">湯品介紹</a></li>
 							<li><a href="faq.html">FAQ</a></li>
 						</ul>
 					</li>
-					<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">關於 sboon<span class="caret"></span></a>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">關於 sboon<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="about.html">認識我們</a></li>
 							<li><a href="teams.html">我們的團隊</a></li>
@@ -60,37 +68,37 @@
 							<li><a href="gotsbooned.html">#gotsbooned</a></li>
 						</ul>
 					</li>
-					<li><a href="/bs3/Examples/navbar">網誌</a> </li>
-					<!-- <li><a href="/bs3/Examples/navbar">限時優惠</a> </li> -->
+					<li><a href="/bs3/Examples/navbar">網誌</a></li>
+					<!-- <li><a href="/bs3/Examples/navbar">限時優惠</a></li> -->
 					<li>
-						<a class="fa-shop hvr-pulse" href="https://shopsboon.shoplineapp.com/"> <span class="fa fa-shopping-basket">立即訂購</span> </a>
+						<a class="fa-shop hvr-pulse" href="https://shopsboon.shoplineapp.com/">
+							<span class="fa fa-shopping-basket">立即訂購</span>
+						</a>
 					</li>
-				</ul>
 				</ul>
 				<ul class="nav navbar-nav nav-social">
 					<li class="icon-social">
 						<span class="fa-stack fa-lg fa-left hvr-pulse">
 							<a href="https://www.facebook.com/sboon.official/?fref=ts" class="line-L">
-                <i class="fa fa-stack-2x circle-fa"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-style"></i>
-              </a>
+								<i class="fa fa-stack-2x circle-fa"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-style"></i>
+							</a>
 						</span>
 						<span class="fa-stack fa-lg fa-size hvr-pulse">
 							<a href="#">
-	              <i class="fa fa-stack-2x circle-fa"></i>
-	              <i class="fa fa-instagram fa-stack-1x fa-style"></i>
-            	</a>
+								<i class="fa fa-stack-2x circle-fa"></i>
+								<i class="fa fa-instagram fa-stack-1x fa-style"></i>
+							</a>
 						</span>
 						<span class="fa-stack fa-lg fa-gap hvr-pulse">
 							<a href="#">
-                <i class="fa fa-stack-2x circle-fa"></i>
-                <i class="fa fa-line fa-stack-1x fa-style"></i>
-              </a>
+								<i class="fa fa-stack-2x circle-fa"></i>
+								<i class="fa fa-line fa-stack-1x fa-style"></i>
+							</a>
 						</span>
 					</li>
 				</ul>
-				<div></div>
-			</div>
+			<div></div>
 			<!--/.nav-collapse -->
 			<div></div>
 		</div>
@@ -98,19 +106,18 @@
 	<!-- plans start -->
 	<div class="main_head kv">
 		<div class="main-tit">
-			<div class="row-tit"> <img src="img/main_tit_1.svg" alt=""> </div>
+			<div class="row-tit"> <img src="img/main_tit_5.svg" alt=""></div>
 		</div>
 	</div>
-	<!-- introduc -->
-	<div class="main_head content-top introduc">
-		<div class="row-introduc">
-			<div class="int-kv"><img src="img/main_img_1.svg" alt=""> </div>
-			<div class="int-wd">Sboon依照不同女性的生活習慣與日常需求，特別設計了三種體驗計畫。忙碌上班的日子、慵懶在家的時光、想體驗卻有點猶豫的心情，Sboon都先為你想到了。請無負擔的擁抱Sboon親手為你準備的驚喜祝福吧！</div>
-		</div>
-	</div>
-	<!-- How to choose a plan -->
-  <div class="main_head content-top how">
-    <div class="ex-tit"><img src="img/plans_tit.svg" alt=""></div>
+
+	<!-- how to sboon -->
+  <div class="main_head content-top soup">
+		<!-- 共用title -->
+		<div class="all-tit">
+      <p>其他湯品計畫</p>
+      <div class="bottom-line"></div>
+    </div>
+		<!-- 共用title -->
     <div class="chose-mid">
       <div class="step-box">
         <div class="step step-B">
@@ -136,64 +143,186 @@
         </div>
       </div>
     </div>
+<!-- 如何飲用 -->
+		<div class="taste">
+			<div class="all-tit">
+	      <p>如何飲用</p>
+	      <div class="bottom-line"></div>
+			</div>
+
+			<div class="inner-taste">
+<!-- step1 -->
+				<div class="taste-box">
+					<div class="taste-L">
+						<p>Sboon</p>
+						<p>日常的每日</p>
+						<p>起點與終點</p>
+					</div>
+
+					<div class="taste-R">
+						<div class="taste-R-step">
+							<div class="step-tit">
+								<p>兩個床邊小儀式</p></div>
+
+							<div class="step-con">
+								<div class="step-con1">
+									<img src="img/soup_icon_1.svg" alt="">
+									<p>起床的第一件事，喝點溫檸檬水讓身心緩緩甦醒</p>
+								</div>
+								<div class="step-con1">
+									<img src="img/soup_icon_2.svg" alt="">
+									<p>睡前泡壺薰衣草、洋甘菊或是玫瑰花茶助眠</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="taste-R-step-R">
+							<div class="step-tit">
+								<p>7-8小時的舒眠時間</p>
+							</div>
+							<img src="img/soup_icon_3.svg" alt="">
+						</div>
+
+					</div>
+				</div>
+<!-- step2 -->
+				<div class="taste-box">
+					<div class="taste-L">
+						<p>冷湯 / 暖湯</p>
+					</div>
+
+					<div class="taste-R-inner">
+						<div class="taste-R-box taste-R-box-top">
+							<div class="taste-R-word">
+								<p class="soup-type">冷湯</p>
+								<p class="taste-chilled">enjoy chilled</p>
+								<p>自冷藏取出即可飲用</p>
+							</div>
+							<div class="taste-R-img">
+								<img src="img/soup_icon_4.svg" alt="">
+							</div>
+
+						</div>
+
+						<div class="taste-R-box">
+							<div class="taste-R-word">
+								<p class="soup-type">暖湯</p>
+								<p class="taste-warm">enjoy warm</p>
+								<p>加熱後即可飲用。建議加熱方式如下：</p>
+							</div>
+							<div class="inner-warm">
+								<div class="warm-com">
+									<img src="img/soup_icon_5.svg" alt="">
+									<div class="warm-R">
+										<p>隔水加熱</p>
+										<p>請先將瓶蓋打開取下，再將水注入加熱用鍋具中，水位高度為湯品瓶身的一半高，以避免加熱後滾水濺入瓶內。接著置入湯品瓶身後即可隔水加熱。因本湯品為熟食在任何溫度下均可飲用，熱度可依個人喜好調整。提醒您取出瓶身的時候要注意玻璃瓶身仍處於高溫，建議使用隔熱手套或器具來取用。 </p>
+									</div>
+								</div>
+
+								<div class="warm-com">
+									<img src="img/soup_icon_6.svg" alt="">
+									<div class="warm-R">
+										<p>電鍋加熱</p>
+										<p>請您先將瓶蓋打開取下，瓶口用保鮮膜或是盤子封好，以避免蒸氣水份過多滲入湯品。加入一碗水至電鍋中，置入湯品瓶身後即可電鍋加熱。電鍋加熱完畢跳起後，提醒您取出瓶身時要注意玻璃瓶身仍處於高溫，建議使用隔熱手套或器具來取用。</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- step3 -->
+				<div class="taste-box">
+					<div class="taste-L">
+						<p>請輕搖瓶身</p>
+					</div>
+
+					<div class="taste-R-inner">
+						<div class="taste-R-box taste-R-box-one">
+							<div class="taste-R-word">
+								<p>飲用前輕搖瓶身，讓湯中的色香味完美結合</p>
+							</div>
+							<img src="img/soup_icon_7.svg" alt="">
+						</div>
+					</div>
+				</div>
+<!-- step4 -->
+				<div class="taste-box">
+					<div class="taste-L">
+						<p>Sboon</p>
+						<p>減法生活</p>
+					</div>
+
+					<div class="taste-R">
+						<div class="taste-R-box">
+							<div class="taste-R-word">
+								<p>啟動Sboon計畫</p>
+							</div>
+							<p class="note">你的身體開始享受純粹美好的食材，為了讓身體在最佳狀態體驗Sboon的減法生活。我們建議如下：</p>
+							<div class="taste-states">
+
+								<div class="states-icon">
+									<img src="img/soup_icon_8.svg" alt="">
+									<p>不抽煙</p>
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_9.svg" alt="">
+									<p>不飲酒</p>
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_10.svg" alt="">
+									<p>戒咖啡</p>
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_11.svg" alt="">
+									<p>忌燒烤類</p>
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_12.svg" alt="">
+									<p>忌醃漬高鹽</p>
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_13.svg" alt="">
+									<p>搭配有氧運動</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- step5 -->
+				<div class="taste-box">
+					<div class="taste-L">
+						<p>給自己</p>
+						<p>常跑廁所的</p>
+						<p>悠適時間</p>
+					</div>
+
+					<div class="taste-R">
+						<div class="taste-R-box">
+							<div class="taste-R-word">
+								<p>Sboon精算料理提供大量高纖食材與充足水分</p>
+							</div>
+							<div class="taste-states taste-last-icon">
+								<div class="states-icon">
+									<img src="img/soup_icon_14.svg" alt="">
+								</div>
+								<div class="states-icon">
+									<img src="img/soup_icon_15.svg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+<!-- step5 end-->
+			</div>
+		</div>
+<!-- banner -->
+		<div class="banner-faq">
+			<div class="devider"></div>
+			<a href="faq.html" class="inner-faq hvr-fade">如何知道更多</a>
+		</div>
   </div>
 
-  <!-- plan exit -->
-  <div class="main_head content-top exit">
-    <!-- TOP title -->
-    <div class="all-tit">
-      <p>取代餐數</p>
-      <div class="bottom-line"></div>
-    </div>
-    <!-- bottom BOX -->
-    <div class="exit-BOX">
-      <div class="exit-inner">
-        <div class="exit-top top_kv1">
-        	<img src="img/plan_item1.svg" alt="">
-        </div>
-        <div class="exit-down ex-down1"><a href="plans_1_3d.html" class="hvr-fade">詳細計畫</a></div>
-      </div>
-      <div class="exit-inner">
-        <div class="exit-top top_kv2">
-        	<img src="img/plan_item2.svg" alt="">
-        </div>
-        <div class="exit-down ex-down">
-          <div class="btn-w btn-L">
-						<a href="plans_2_3d.html" class="hvr-fade">
-	            <p><span class="D-red">3</span>Day</p>
-	            <p>詳細計畫</p>
-						</a>
-          </div>
-          <div class="btn-w btn-L">
-						<a href="plans_2_6d.html" class="hvr-fade">
-	            <p><span class="D-red">6</span>Day</p>
-	            <p>詳細計畫</p>
-						</a>
-          </div>
-        </div>
-      </div>
-			<div class="exit-inner">
-        <div class="exit-top top_kv3">
-        	<img src="img/plan_item3.svg" alt="">
-        </div>
-        <div class="exit-down ex-down">
-
-          <div class="btn-w btn-L">
-						<a href="plans_3_1d.html" class="hvr-fade">
-	            <p><span class="D-red">3</span>Day</p>
-	            <p>詳細計畫</p>
-						</a>
-          </div>
-          <div class="btn-w btn-L">
-						<a href="plans_3_3d.html" class="hvr-fade">
-	            <p><span class="D-red">6</span>Day</p>
-	            <p>詳細計畫</p>
-						</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- footer頁尾 -->
 	<footer>
 		<div class="container-fluid foo-con">
