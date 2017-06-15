@@ -44,6 +44,10 @@ a:hover{
   padding-top: 6.5em;
   padding-right: 2.5%;
 }
+.row-tit img{
+  width: 363px;
+  max-width: 100%;
+}
 /*斷點*/
 @media (max-width: 1200px){
   .main-tit{
@@ -75,10 +79,10 @@ a:hover{
   .row-tit {
     padding-top: 4.5em;
   }
-
   .main-tit {
     background-size: 12%;
     height: 10em;
+    margin-top: 20%;
   }
 }
 @media (max-width: 767px){
@@ -1708,4 +1712,14 @@ a:hover{
   .other-box .other-down {
     height: 60px;
   }
+}
+/* title top 關於 sboon 的 UI*/
+.tit-top{
+  align-self: flex-start;
+  margin: 0;
+  width: 50%;
+}
+@media (max-width:767px) {
+  .tit-top{
+    width: 100%;
 }
