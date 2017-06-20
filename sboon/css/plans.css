@@ -1730,4 +1730,65 @@ a:hover{
 @media (max-width:767px) {
   .tit-top{
     width: 100%;
+  }
+}
+/*新增＊『Pure傲骨初心』及『Tranquil靜謐晨曦』，兩者擇其一飲用*/
+.soup-select{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.soup-select p{
+  display: block;
+  width: 30%;
+  color: #FFB8AC;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8em;
+}
+@media (max-width:1170px) {
+  .soup-select p {
+    width: 40%;
+  }
+}
+@media (max-width:920px) {
+  .soup-select p {
+    font-size: 13px;
+  }
+}
+@media (max-width:767px) {
+  .soup-select p {
+    width: 45%;
+  }
+}
+@media (max-width:690px) {
+  .soup-select p {
+    width: 50%;
+  }
+}
+@media (max-width:650px) {
+  .soup-select p {
+    width: 70%;
+    font-size: 15px;
+  }
+}
+@media (max-width:490px) {
+  .soup-select p {
+    width: 80%;
+    font-size: 15px;
+  }
+}
+@media (max-width:414px) {
+  .soup-select p {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+@media (max-width:320px) {
+  .soup-select p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+  }
 }
