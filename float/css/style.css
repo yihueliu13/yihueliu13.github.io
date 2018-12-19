@@ -25,6 +25,7 @@ p {
 }
 section {
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 section p:nth-child(1) {
   text-align: center;
