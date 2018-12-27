@@ -367,7 +367,7 @@ section:nth-child(even) .container {
   background-color: #f6f6f6;
   position: absolute;
   bottom: -20px;
-  right: 0px;
+  right: 15px;
 }
 
 .blog-post-txt h3 a {
