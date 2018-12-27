@@ -61,6 +61,7 @@ h2.title {
 }
 
 /* content start */
+
 .section {
   width: 100%;
   margin: auto;
@@ -186,6 +187,7 @@ section:nth-child(even) .container {
 }
 
 /* section-focus */
+
 .section-focus-products {
   width: calc(100% / 3);
   height: auto;
@@ -298,16 +300,9 @@ section:nth-child(even) .container {
   width: 284px;
 }
 
-/* .section-popular h2 {
-  font-size: 24px;
-  font-weight: 500;
-  color: #1d1c21;
-  text-align: center;
-  letter-spacing: 0.2;
-  padding: 40px 0;
-} */
 
 /* section-dealy */
+
 .section-dealy {
   background-image: url("../img/banner4.jpg");
   background-size: cover;
@@ -324,10 +319,6 @@ section:nth-child(even) .container {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
 }
 
 .section-dealy span {
@@ -354,6 +345,7 @@ section:nth-child(even) .container {
 }
 
 /* blog */
+
 .section-blog {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -413,7 +405,7 @@ p.post-name a:hover {
   padding: 20px;
 }
 
-label h3 {
+label {
   display: inline-block;
   font-weight: 400;
   font-size: 18px;
