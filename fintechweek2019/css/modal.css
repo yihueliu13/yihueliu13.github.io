@@ -1,0 +1,177 @@
+@charset "UTF-8";
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", "Roboto", Arial, Helvetica, sans-serif, 微軟正黑體, "Segoe UI", "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  background-color: #000000bf;
+  z-index: 100000;
+  display:none;
+}
+
+
+.modalBox {
+    position: relative;
+    max-width: 650px;
+    background-color: #fff;
+    padding: 30px 20px;
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08), 
+                        0 10px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.08), 
+                0 10px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 10% auto 0 auto;
+}
+
+.delete-btn {
+  opacity: 0.5;
+  position: absolute;
+  right: 20px;
+  border: none;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main-img {
+  width: 45%; 
+  float: left;
+  max-width: 350px;
+}
+
+.tip-right {
+  width: 55%; 
+  float: right;
+}
+
+.big-tips {
+  font-size: 26px;
+  color: #214CA1;
+  font-weight: 700;
+  margin-top: 30%;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.small-tips {
+  font-size: 16px;
+  color: #52658B;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+
+.tips-bottom {
+  width: 100%; 
+  display: inline-block;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.tips-bottom p {
+  padding: 10px 80px 0px 80px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+  color: #52658B;
+  font-weight: 300;
+}
+
+.phone-number {
+  font-weight: 500;
+}
+
+.close-btn {
+  text-align: center;
+}
+
+.modal-btn-style {
+  font-size: 16px;
+  color: #ffffff;
+  width: 45%;
+  padding: 15px 25px;
+  background-color: #2159C6;
+  border-radius: 5px;
+  transition: 0.3s;
+  border: none;
+}
+
+.modal-btn-style:hover {
+  cursor: pointer;
+  background-color: #1545a2;
+  transition: 0.3s;
+}
+
+.mb-15 { margin-bottom: 15px; }
+
+
+
+@media (max-width: 640px) {
+.box {
+    max-width: 450px;
+    padding: 20px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 5%;
+}
+
+.main-img {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.tip-right {
+  width: 100%;
+}
+
+.big-tips {
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.small-tips {
+  font-size: 14px;
+}
+
+
+.big-tips,.small-tips {
+  text-align: center;
+}
+
+.tips-bottom {
+  margin-top: 20px;
+}
+
+.tips-bottom p {
+  padding: 5px 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.modal-btn-style {
+  width: 60%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
