@@ -1,0 +1,656 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>產品體驗_普惠計劃_預約開戶 | KVB昆侖國際</title>
+    <meta name="format-detection" content="telephone=no,email=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" href="//asset.kvbkunlun.com/fonts/css/woff2.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <script src="//hm.baidu.com/hm.js?4ca41cc889426907a39aca852ab0e5ad "></script>
+    <script src="//asset.kvbkunlun.com/js/jquery-3.3.1.min.js"></script>
+    <script src="//asset.kvbkunlun.com/js/mustache.min.js"></script>
+    <script src="//asset.kvbkunlun.com/js/jquery.placeholder.min.js"></script>
+    <script src="//asset.kvbkunlun.com/js/crm.js"></script>
+    <script src="//asset.kvbkunlun.com/js/bootstrap-min.3.3.7.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body class="page-home">
+    <div class="modal">
+        <div class="modalBox">
+            <button class="delete-btn">
+                <img src="assets/img/delete.svg" width="20">
+            </button>
+            <div class="main-img">
+                <img src="assets/img/main-img.png" width="100%">
+            </div>
+            <div class="tip-right">
+                <p class="big-tips">您的信息已成功提交!</p>
+                <p id="msgContact" class="small-tips"></p>
+            </div>
+            <div class="tips-bottom">
+                <p id="msgDesc"></p>
+                <p class="mb-15">客服專線 : <span class="phone-number ">
+                        <a href="tel:+852 3701 8180">+852 3701 8180</a></span></p>
+            </div>
+            <div class="close-btn">
+                <button class="modal-btn-style">確認</button>
+            </div>
+        </div>
+    </div>
+    <!-- header - nav -->
+    <nav id="pageHead" class="navbar navbar-inverse">
+        <div class="nav-content">
+            <div class="navbar-header">
+                <a href="https://www.kvbgc.com/cn/">
+                    <img class="header-logo" src="assets/img/iconfont_logo_kvb_standard.png" width="200" alt="">
+                </a>
+                <button id="myNavbarBtn" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav nav-section-btn">
+                    <li><a data-link="prodlinks" href="#prodAPI">API自動化交易方案</a></li>
+                    <li><a data-link="prodlinks" href="#prodeFX">eFX雲端外匯交易解決方案</a></li>
+                    <li><a data-link="prodlinks" href="#prodEDM">EDM外匯交易管理平台</a></li>
+                    <li><a data-link="prodlinks" href="#prodeTreasury">eTreasury企業司庫平台</a></li>
+                    <li><a data-link="prodlinks" href="#prodKVB">普惠計劃</a></li>
+                </ul>
+                <ul class="nav navbar-nav hidden-slogan">
+                    <li><a href="https://www.kvbgc.com/cn/"><img src="assets/img/iconfont_slogan_tc.png" width="200"
+                                alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header - video -->
+    <div class="video-wrap hideOverflow">
+        <div class="video-container">
+            <svg style="float:left" class="pattern-swatch">
+                <rect style="fill: url(#dots-2)" x="0" y="0" height="30%" width="100%"></rect>
+            </svg>
+            <video class="is-video-bg" playsinline="" autoplay="" muted="" loop="" poster="assets/img/video_img.png" id="bgvideo"
+                width="x" height="476px">
+                <source src="assets/img/kvb.mp4" type="video/mp4">
+            </video>
+            <div id="overlay"></div>
+        </div>
+        <div class="video-none">
+        </div>
+    </div>
+
+    <!-- header - eform / bg-wrap / section 1 : about kvb  -->
+    <!-- eform start -->
+
+    <div class="eform-warp">
+        <div class="inner-content">
+            <div class="section e-form">
+                <div class="e-form-body">
+                    <div class="is-eform-content">
+                        <h1>「智匯金融」普惠中小企業</h1>
+                        <h2>構建最佳客戶體驗及解決方案</h2>
+                        <div class="form-info">
+                            <!-- form -->
+                            <form id="form1" class="form-left">
+                                <p>請在此處留下您的聯繫方式</p>
+                                <div class="col-xs-12 form-icon form-icon-1">
+                                    <!-- <img src="assets/img/icon_name.png" alt=""> -->
+                                    <input type="text" id="name" name="name" placeholder="姓名" required="" autocomplete="off">
+                                </div>
+                                <div class="col-xs-12 form-icon form-icon-2">
+                                    <select class="form-control" placeholder="國家或地區" id="area" name="area" autocomplete="off">
+                                        <option value="HK" data-code="+852">香港</option>
+                                        <option value="CN" data-code="+86">中國大陸</option>
+                                        <option value="NZ" data-code="+64">新西蘭</option>
+                                        <option value="SYD" data-code="+61">悉尼</option>
+                                        <option value="MEL" data-code="+61">墨爾本</option>
+                                        <option value="CA" data-code="+1">加拿大</option>
+                                        <option value="Others" data-code="">其它</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-row form-row form-icon">
+                                    <div class="input-row-left col-xs-3 form-icon form-icon-3">
+                                        <input type="text" placeholder="國際區號" required="" id="code" name="code" value="+852"
+                                            autocomplete="off">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <input type="text" placeholder="電話" required="" id="phone" name="phone"
+                                            autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 form-icon form-icon-4">
+                                    <input type="text" placeholder="E-Mail" required="" id="email" name="email"
+                                        autocomplete="off">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="e-form-body">
+                    <div class="is-eform-content">
+                        <div class="form-select">
+                            <div class="form-info is-form-select">
+                                <!-- form -->
+                                <form>
+                                    <p>您想體驗功能，請選擇：</p>
+                                    <div class="form-block">
+                                        <div class="lefePanel">
+                                            <label class="checkbox-style checkbox-style-left">
+                                                <input type="checkbox" checked="checked" id="API" name="API" data-code="product">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-style checkText" for="API">API自動化交易方案</label>
+                                            <label class="checkbox-style checkbox-style-left">
+                                                <input type="checkbox" checked="checked" id="eFX" name="eFX" data-code="product">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-style checkText" for="eFX">eFX雲端外匯交易解決方案</label>
+                                        </div>
+                                        <div class="rightPanel">
+                                            <label class="checkbox-style checkbox-style-left">
+                                                <input type="checkbox" checked="checked" id="EDM" name="EDM" data-code="product">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-style checkText" for="EDM">EDM企業級外匯交易管理平台</label>
+                                            <label class="checkbox-style checkbox-style-left">
+                                                <input type="checkbox" checked="checked" id="eTreasury" name="eTreasury"
+                                                    data-code="product">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-style checkText" for="eTreasury">eTreasury企業司庫平台</label>
+                                        </div>
+                                        <div class="lefePanel">
+                                            <label class="checkbox-style checkbox-style-left">
+                                                <input type="checkbox" checked="checked" id="noNeed" name="noNeed"
+                                                    data-code="product">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="checkbox-style checkText" for="noNeed">暫時不需體驗功能</label>
+                                        </div>
+                                    </div>
+                                    <!-- form -->
+                                    <div class="form-block">
+                                        <p>是否開立賬戶：</p>
+                                        <div class="col-xs-12 form-icon form-icon-5">
+                                            <select id="openAccount" name="openAccount" class="form-control" required="">
+                                                <option value="" hidden="">請選擇</option>
+                                                <option value="1">我想開立賬戶</option>
+                                                <option value="2">我暫時不想開立賬戶</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </form>
+                                <form>
+                                    <div class="checkbox">
+                                        <label class="checkbox-style checkbox-style-left">
+                                            <input type="checkbox" id="isSubscriptionEmail" name="isSubscriptionEmail">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="checkbox-style checkbox-style-right" for="isSubscriptionEmail">
+                                            本人願意收到由KVB昆侖國際發出的行業資訊和市場推廣優惠。
+                                        </label>
+                                    </div>
+                                    <div class="form-submit">
+                                        <a href="#" id="submitBtn">立即登記</a>
+                                    </div>
+                                    <div class="form-other">
+                                        <p>* 登記信息後，您將通過郵件收到模擬賬戶登錄信息及系統使用說明。
+                                            若您選擇了開立賬戶，客戶經理會在第一時間與您聯繫。</p>
+                                        <div class="service-area">
+                                            <div>客服專線</div>
+                                            <div class="service-area-list">
+                                                香港 <a href="tel:+852 3701 8180">+852 3701 8180</a><span> | 新西蘭 <a href="tel:+64 9 359 8985">
+                                                        +64 9 359 8985</a></span><br>
+                                                澳洲 <a href="tel:+61 03 9660 1888">+61 03 9660 1888</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- conniner - bg-wrap -->
+        <!-- conniner - bg-wrap -->
+        <div class="bg-wrap"></div>
+        <!-- content - section 1 : about kvb -->
+        <div class="about-warp">
+            <div class="all-layer about-layer-1">
+                <img src="assets/img/bgimg_about_1.png" alt="">
+                <img src="assets/img/bgimg_about_1.png" alt="">
+            </div>
+            <div class="all-layer about-layer-2">
+                <img src="assets/img/bgimg_about_2b.png" alt="">
+                <img src="assets/img/bgimg_about_2a.png" alt="">
+            </div>
+            <!-- inside main content -->
+            <div class="inner-content-mg">
+                <div class="about-layer about-layer-3">
+                    <!--  -->
+                    <div class="about-layer-content about-3-toppic">
+                        <div class="is-about-content-kv">
+                            <img src="assets/img/bgimg_about_3.png" alt="">
+                            <p class="feature-1">全球支付與結算</p>
+                            <p class="feature-2">企業司庫</p>
+                            <p class="feature-3">外匯對沖避險</p>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="about-layer-content is-about-content">
+                        <div class="is-about-content-box">
+                            <h3>KVB昆侖國際「如何」支持中小企業發展？</h3>
+                            <p>KVB昆侖國際從2001年創立至今，始終帶著由小企業成長壯大的初心，對中小企業發展面臨的困難感同身受。我們致力憑藉近二十年企業外匯及財資管理經驗，專門針對中小企業發展需求與痛點，在全球支付與結算、外匯對沖避險、企業司庫等方面提供全力支持，讓中小企業能夠享受更便捷的智匯金融工具、
+                                更平等的普惠金融方案、更領先的生態金融理念，從而發展壯大、成就不凡！</p>
+                        </div>
+                    </div>
+                    <div class="about-layer-content about-3-bottompic">
+                        <div class="is-about-content-kv">
+                            <img src="assets/img/bgimg_about_3.png" alt="">
+                            <p class="feature-1">全球支付與結算</p>
+                            <p class="feature-2">企業司庫</p>
+                            <p class="feature-3">外匯對沖避險</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content - section 2 : prdoucts head -->
+        <div class="prdouct-wrap">
+            <div class="is-prdouct-wrap prdouct-sub">
+                <p>KVB 專業打造一站式智匯金融工具</p>
+                <p>4 大解決方案突破企業發展痛點</p>
+                <p>現登記信息即可獲取免費模擬賬號 馬上試用獲得系統功能最佳體驗</p>
+            </div>
+            <div class="prdouct-line">
+                <div class="is-prdouct-line">
+
+                    <div class="is-prdouct-box prdouct-line-a">
+                        <div class="prdouct-line-top">
+                            <p>如何降低匯率波動對服務及</p>
+                            <p>貨物貿易企業利潤的影響？</p>
+                        </div>
+                        <div class="prdouct-line-bottom">
+                            <p>API自動化交易方案</p>
+                        </div>
+                    </div>
+                    <div class="is-prdouct-box prdouct-line-b">
+                        <div class="prdouct-line-top">
+                            <p>如何透過網絡及移動設備進行</p>
+                            <p>便捷的外匯交易管理？</p>
+                        </div>
+                        <div class="prdouct-line-bottom">
+                            <p>eFX雲端外匯交易解決方案</p>
+                        </div>
+                    </div>
+                    <div class="is-prdouct-box prdouct-line-c">
+                        <div class="prdouct-line-top">
+                            <p>大中型進出口企業如何進行上下游、</p>
+                            <p>全鏈條外匯及多幣種資金管理？</p>
+                        </div>
+                        <div class="prdouct-line-bottom">
+                            <p>EDM企業級外匯交易管理平台</p>
+                        </div>
+                    </div>
+                    <div class="is-prdouct-box prdouct-line-d">
+                        <div class="prdouct-line-top">
+                            <p>如何使用企業司庫平台降低
+                            </p>
+                            <p>企業財資金融風險？</p>
+                        </div>
+                        <div class="prdouct-line-bottom">
+                            <p>eTreasury企業司庫平台</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content - section 3 : prdoucts feuture -->
+        <!-- 1 -->
+        <div id="prodAPI" class="feuture-wrap">
+            <div class="feuture-wrap-inner">
+                <div class="is-feuture-img-inner">
+                    <img src="assets/img/product_1.png" alt="">
+                    <img src="assets/img/product_1_mobile.png" alt="">
+                </div>
+
+                <div class="is-feuture-info">
+                    <div class="is-feuture-info-inner">
+                        <div class="is-feuture-info-1">
+                            <p>如何降低匯率波動對服務及貨物貿易企業利潤的影響？</p>
+                            <p>API 自動化交易方案</p>
+                        </div>
+                        <div class="is-feuture-info-2">
+                            <p>適合對象</p>
+                            <p>跨境電商、進出口、平台類企業</p>
+
+                        </div>
+                        <div class="is-feuture-info-3">
+                            <p>允許企業定制自己的外匯對沖策略</p>
+                            <p>每天推送超100種貨幣實時市場報價</p>
+                            <p>自動執行外匯交易而無需人工操作</p>
+                            <p>不同線上渠道使用實時匯率報價，即時自動以當地貨幣定價商品</p>
+                            <p>客戶以當地貨幣進行購買，交易數據信息將通過API接口直接傳送給KVB</p>
+                            <!-- <p>KVB外匯風險管理系統將匯總交易信息，并根據企業客戶自定義策略進行風險對沖。</p> -->
+                        </div>
+                        <div class="is-feuture-info-4">
+                            <div class="box">
+                                <div data-link="prodlinks" href="#pageHead" class="info-4-btn">
+                                    <img src="assets/img/icon_btn_arrow.png" alt="">
+                                    <a href="#" class="btn">登記體驗</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div id="prodeFX" class="feuture-wrap">
+            <div class="feuture-wrap-inner">
+                <div class="is-feuture-img-inner">
+                    <img src="assets/img/product_2.png" alt="">
+                    <img src="assets/img/product_2_mobile.png" alt="">
+                </div>
+                <div class="is-feuture-info">
+                    <div class="is-feuture-info-inner">
+                        <div class="is-feuture-info-1">
+                            <p>如何透過網絡及移動設備進行便捷的外匯交易管理？</p>
+                            <p>eFX 雲端外匯交易解決方案</p>
+                        </div>
+                        <div class="is-feuture-info-2">
+                            <p>適合對象</p>
+                            <p>小型金融機構及企業</p>
+
+                        </div>
+                        <div class="is-feuture-info-3">
+                            <p>自主研發分佈式架構</p>
+                            <p>為貿易企業、同業金融機構、以及個人提供普惠型多功能外匯交易管理系統</p>
+                            <p>提供便捷的外匯交易、敞口對沖、以及市場風險管理電子化工具</p>
+                            <p>無需安裝、企業前後台系統數據對接方便，支持雲端及移動端接入</p>
+                            <p>系統功能可快速定制化縮放、專業團隊快速對接</p>
+                        </div>
+                        <div class="is-feuture-info-4">
+                            <div class="box">
+                                <div data-link="prodlinks" href="#pageHead" class="info-4-btn">
+                                    <img src="assets/img/icon_btn_arrow.png" alt="">
+                                    <a class="btn" href="#">登記體驗</a>
+                                </div>
+                            </div>
+                            <!-- <div class="box">
+                                        <div class="info-4-btn info-4-btn-right">
+                                            <img src="assets/img/icon_btn_arrow.png" alt="">
+                                            <a class="btn" href="#">使用手冊</a>
+                                        </div>
+                                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div id="prodEDM" class="feuture-wrap">
+            <div class="feuture-wrap-inner">
+                <div class="is-feuture-img-inner">
+                    <img src="assets/img/product_3.png" alt="">
+                    <img src="assets/img/product_3_mobile.png" alt="">
+                </div>
+                <div class="is-feuture-info">
+                    <div class="is-feuture-info-inner">
+                        <div class="is-feuture-info-1">
+                            <p>大中型進出口企業如何進行上下游、全鏈條外匯及多幣種資金管理？</p>
+                            <p>EDM 企業級外匯交易管理平台</p>
+                        </div>
+                        <div class="is-feuture-info-2">
+                            <p>適合對象</p>
+                            <p>大型財務公司類企業</p>
+
+                        </div>
+                        <div class="is-feuture-info-3">
+                            <p>支援多交易上家的企業級外匯交易管理平台，用於交易外匯即期、遠期和掉期交易</p>
+                            <p>企業使用者可以向銀行或外匯交易機構服務商獲取價格，執行交易並將詳細資訊集成到訂單管理、風險管理和後台財資系統中</p>
+                            <p>提供超過百餘項的定制化邏輯設置，支持多層級企業內部交易，多對手行和多貨幣管理，淨額結算、交易損益跟踪、以及雙虛擬賬戶功能</p>
+                            <p>讓企業能夠滿足簡單外匯交易及管理的同時，利用系統擴展性實現上下游，供應鏈企業的綜合外匯管理</p>
+                        </div>
+                        <div class="is-feuture-info-4">
+                            <div class="box">
+                                <div data-link="prodlinks" href="#pageHead" class="info-4-btn">
+                                    <img src="assets/img/icon_btn_arrow.png" alt="">
+                                    <a class="btn" href="#">登記體驗</a>
+                                </div>
+                            </div>
+                            <!-- <div class="box">
+                                        <div class="info-4-btn info-4-btn-right">
+                                            <img src="assets/img/icon_btn_arrow.png" alt="">
+                                            <a class="btn" href="#">使用手冊</a>
+                                        </div>
+                                    </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4 -->
+        <div id="prodeTreasury" class="feuture-wrap">
+            <div class="feuture-wrap-inner">
+                <div class="is-feuture-img-inner">
+                    <img src="assets/img/product_4.png" alt="">
+                    <img src="assets/img/product_4_mobile.png" alt="">
+                </div>
+                <div class="is-feuture-info">
+                    <div class="is-feuture-info-inner">
+                        <div class="is-feuture-info-1">
+                            <p>如何使用企業司庫平台降低企業財資金融風險？</p>
+                            <p>eTreasury 企業司庫平台</p>
+                        </div>
+                        <div class="is-feuture-info-2">
+                            <p>適合對象</p>
+                            <p>大中小型企業</p>
+                        </div>
+                        <div class="is-feuture-info-3">
+                            <p>為企業提供免安裝的雲端司庫管理及簿記平台</p>
+                            <p>以SaaS形式運營，用戶無需支付硬件及軟件維護的費用</p>
+                            <p>為企業免去實體安裝，服務器以及專線網絡的成本，大幅降低司庫使用的成本</p>
+                            <p>可提供更加複雜的定制化報表及數據處理邏輯</p>
+                            <p>提供平台顧問服務，協助客戶設置系統，並就市場標準和程序提供建議，加快設置流程和提供最佳客戶體驗</p>
+                        </div>
+                        <div class="is-feuture-info-4">
+                            <div class="box">
+                                <div data-link="prodlinks" href="#pageHead" class="info-4-btn">
+                                    <img src="assets/img/icon_btn_arrow.png" alt="">
+                                    <a class="btn" href="#">登記體驗</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <!-- <div class="info-4-btn info-4-btn-right">
+                                            <img src="assets/img/icon_btn_arrow.png" alt="">
+                                            <a class="btn" href="#">使用手冊</a>
+                                        </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content - section 4 : prdoucts service -->
+        <!-- <img src="assets/img/img_bg_triangle_bottom.png" alt=""> -->
+        <div class="service-wrap">
+            <div class="service-wrap-inner">
+                <div class="service-content">
+                    <div class="service-container">
+                        <div class="service-logo">
+                            <img src="assets/img/icon_service.png" alt="">
+                        </div>
+                        <div id="prodKVB" class="service-content-inner">
+                            <h4>KVB昆侖國際「普惠」中小企業計劃</h4>
+                            <div class="is-service-table">
+                                <div class="is-service-table-box table-box-1">
+                                    <div class="table-box table-box-sub">
+                                        <p>我們為中小企業提供平等機會</p>
+                                    </div>
+
+                                    <div class="table-box table-box-list">
+
+                                        <div class="is-table-box table-box-L">
+                                            <p>不設開戶門檻</p>
+                                            <p>5x24在線交易平台</p>
+                                            <p>129種貨幣全球結算</p>
+                                            <p>T+0支付結算服務</p>
+                                            <p>遠期外匯產品組合</p>
+                                        </div>
+                                        <div class="is-table-box table-box-R">
+                                            <p>無論類型 享受平等開戶權力</p>
+                                            <p>無論大小 享受優質匯率權力</p>
+                                            <p>無論貨幣 享受快速支付權力</p>
+                                            <p>無論國家 享受專業資訊權力</p>
+                                            <p>無論時機 享受風險對沖權利</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="is-service-table-box table-box-2">
+                                    <div class="table-box table-box-sub">
+                                        <p>我們助中小企業提升生存能力</p>
+                                    </div>
+                                    <div class="table-box table-box-list">
+                                        <div class="is-table-box table-box-L">
+                                            <p>機構級別匯率報價</p>
+                                            <p>至抵支付結算費用</p>
+                                            <p>財務人員免費培訓</p>
+                                            <p>匯率波動及到價提醒</p>
+                                        </div>
+                                        <div class="is-table-box table-box-R">
+                                            <p>降低企業交易成本</p>
+                                            <p>控制企業支付成本</p>
+                                            <p>幫助企業了解外匯市場基本運作</p>
+                                            <p>培訓企業積累外匯市場避險經驗</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="is-service-table-box table-box-3">
+                                    <div class="table-box table-box-sub">
+                                        <p>我們為中小企業增強運營軟實力</p>
+                                    </div>
+                                    <div class="table-box table-box-list">
+                                        <div class="is-table-box table-box-L">
+                                            <p>API交易系統對接</p>
+                                            <p>API支付系統對接</p>
+                                            <p>企業外匯風險評估</p>
+                                            <p>匯率避險工具配套與培訓</p>
+                                        </div>
+                                        <div class="is-table-box table-box-R">
+                                            <p>自動交易對接，提升外匯處理精確度及效率</p>
+                                            <p>批量支付對接，簡化供應商及經銷商付款流程</p>
+                                            <p>歷史經驗分享，一對一風險評估及操作培訓</p>
+                                            <p>自動化工具實施，告別低效率手動外匯管理</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="table-box-4">
+                                    <div class="service-rights">
+                                        <div class="service-rights-box rights-box-L">
+                                            <p class="rights-title">開戶前三個月客戶可享受</p>
+                                            <p class="rights-list">客服專員上門開戶</p>
+                                            <p class="rights-list">免支付手續費用</p>
+                                            <p class="rights-list">免費全額支付到賬服務</p>
+                                            <p class="rights-list">免費進行財務人員培訓</p>
+                                        </div>
+                                        <div class="service-rights-box rights-box-R">
+                                            <p class="rights-title">客戶正常待遇</p>
+                                            <p class="rights-list">129種貨幣結算全覆蓋</p>
+                                            <p class="rights-list">機構級別最優匯率報價</p>
+                                            <p class="rights-list">企業外匯風險免費評估</p>
+                                            <p class="rights-list">免費API交易系統對接</p>
+                                            <p class="rights-list">免費API批量支付對接</p>
+                                        </div>
+                                    </div>
+                                    <div class="service-photo"></div>
+                                </div>
+                            </div>
+                            <div data-link="prodlinks" href="#pageHead" class="btn-reservation">
+                                <a href="#">預約開戶</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <!-- 免責聲明 -->
+        <!-- copyright -->
+        <div class="main-width footer">
+            <div class="disclaimer">
+                <div class="disclaimer-inner">
+                    <h4>© KVB Kunlun Global Capital Limited. 風險聲明</h4>
+                    <p>KVB昆侖國際集團所登文件僅為提供資料，任何改變都不會作出任何事前通知。集團並不擔保此刊物所提供的準確性、可靠性或完整性。本文件所載資料並不構成金融或投資建議，也不對任何金融產品或服務構成要約、建議或銷售邀請。相關資訊不考慮您的個人目標、財政狀況、
+                        需要、經驗或承擔虧損之能力。外匯保證金、差價合約、證券及其他衍生工具屬高險投資，虧損風險可以相當巨大，甚至超越所持現金和任何其他已作抵押資產的價值，閣下須以個人之財狀況及投資目標作出評估或諮詢獨立專業投資顧問。
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-inner clearfix">
+                    <div class="footer-bottom-col footer-bottom-col-left">
+                        <div class="footer-bottom__logo">
+                            <a href="https://www.kvbgc.com/cn/">
+                                <img src="assets/img/iconfont_logo_kvb_white.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom-col footer-bottom-col-right">
+                        <p>Copyright © 2018 KVB Kunlun. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?4ca41cc889426907a39aca852ab0e5ad ";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-58636247-1', {
+            'siteSpeedSampleRate': 100
+        });
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+    <div id="eagle-drag-images" style="position: fixed; top: -100000px;"></div>
+</body>
+
+</html>
